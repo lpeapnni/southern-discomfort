@@ -203,12 +203,6 @@
 
 	remove_overlay(BODYPARTS_LAYER)
 
-	var/is_taur = FALSE
-	if(dna?.species.mutant_bodyparts["taur"])
-		var/datum/sprite_accessory/taur/T = GLOB.taur_list[dna.features["taur"]]
-		if(T?.hide_legs)
-			is_taur = TRUE
-
 	for(var/X in bodyparts)
 		var/obj/item/bodypart/BP = X
 		BP.update_limb()
@@ -223,8 +217,6 @@
 	var/list/new_limbs = list()
 	for(var/X in bodyparts)
 		var/obj/item/bodypart/BP = X
-		if(is_taur && leg_day[BP.type])
-			continue
 		new_limbs += BP.get_limb_icon()
 	if(new_limbs.len)
 		overlays_standing[BODYPARTS_LAYER] = new_limbs

@@ -2593,7 +2593,7 @@
 #include "code\modules\mob\dead\new_player\sprite_accessories\hair_head.dm"
 #include "code\modules\mob\dead\new_player\sprite_accessories\horns.dm"
 #include "code\modules\mob\dead\new_player\sprite_accessories\ipc_synths.dm"
-#include "code\modules\mob\dead\new_player\sprite_accessories\legs_and_taurs.dm"
+#include "code\modules\mob\dead\new_player\sprite_accessories\legs.dm"
 #include "code\modules\mob\dead\new_player\sprite_accessories\snouts.dm"
 #include "code\modules\mob\dead\new_player\sprite_accessories\socks.dm"
 #include "code\modules\mob\dead\new_player\sprite_accessories\spines.dm"

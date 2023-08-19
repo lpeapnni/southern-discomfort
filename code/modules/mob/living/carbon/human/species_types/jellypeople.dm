@@ -7,7 +7,7 @@
 	species_traits = list(MUTCOLORS,EYECOLOR,HAIR,FACEHAIR,WINGCOLOR,HAS_FLESH)
 	mutantlungs = /obj/item/organ/lungs/slime
 	mutant_heart = /obj/item/organ/heart/slime
-	mutant_bodyparts = list("mcolor" = "FFFFFF", "mam_tail" = "None", "mam_ears" = "None", "mam_snouts" = "None", "taur" = "None", "deco_wings" = "None", "legs" = "Plantigrade")
+	mutant_bodyparts = list("mcolor" = "FFFFFF", "mam_tail" = "None", "mam_ears" = "None", "mam_snouts" = "None", "deco_wings" = "None", "legs" = "Plantigrade")
 	inherent_traits = list(TRAIT_TOXINLOVER)
 	meat = /obj/item/reagent_containers/food/snacks/meat/slab/human/mutant/slime
 	gib_types = list(/obj/effect/gibspawner/slime, /obj/effect/gibspawner/slime/bodypartless)
@@ -465,7 +465,7 @@
 	default_color = "00FFFF"
 	species_traits = list(MUTCOLORS,EYECOLOR,HAIR,FACEHAIR)
 	inherent_traits = list(TRAIT_TOXINLOVER)
-	mutant_bodyparts = list("mcolor" = "FFFFFF", "mcolor2" = "FFFFFF","mcolor3" = "FFFFFF", "mam_tail" = "None", "mam_ears" = "None", "mam_body_markings" = "Plain", "mam_snouts" = "None", "taur" = "None", "legs" = "Plantigrade")
+	mutant_bodyparts = list("mcolor" = "FFFFFF", "mcolor2" = "FFFFFF","mcolor3" = "FFFFFF", "mam_tail" = "None", "mam_ears" = "None", "mam_body_markings" = "Plain", "mam_snouts" = "None", "legs" = "Plantigrade")
 	say_mod = "says"
 	hair_color = "mutcolor"
 	hair_alpha = 160 //a notch brighter so it blends better.
@@ -496,7 +496,7 @@
 
 /datum/action/innate/slime_change/proc/change_form()
 	var/mob/living/carbon/human/H = owner
-	var/select_alteration = input(owner, "Select what part of your form to alter", "Form Alteration", "cancel") in list("Body Color","Hair Style", "Genitals", "Tail", "Snout", "Markings", "Ears", "Taur body", "Penis", "Vagina", "Penis Length", "Breast Size", "Breast Shape", "Cancel")
+	var/select_alteration = input(owner, "Select what part of your form to alter", "Form Alteration", "cancel") in list("Body Color","Hair Style", "Genitals", "Tail", "Snout", "Markings", "Ears", "Penis", "Vagina", "Penis Length", "Breast Size", "Breast Shape", "Cancel")
 
 	if(select_alteration == "Body Color")
 		var/new_color = input(owner, "Choose your skin color:", "Race change","#"+H.dna.features["mcolor"]) as color|null
@@ -599,24 +599,6 @@
 		new_tail = input(owner, "Choose your character's Tail(s):", "Tail Alteration") as null|anything in snowflake_tails_list
 		if(new_tail)
 			H.dna.features["mam_tail"] = new_tail
-			if(new_tail != "None")
-				H.dna.features["taur"] = "None"
-		H.update_body()
-
-	else if (select_alteration == "Taur body")
-		var/list/snowflake_taur_list = list("Normal" = null)
-		for(var/path in GLOB.taur_list)
-			var/datum/sprite_accessory/taur/instance = GLOB.taur_list[path]
-			if(istype(instance, /datum/sprite_accessory))
-				var/datum/sprite_accessory/S = instance
-				if((!S.ckeys_allowed) || (S.ckeys_allowed.Find(H.client.ckey)))
-					snowflake_taur_list[S.name] = path
-		var/new_taur
-		new_taur = input(owner, "Choose your character's tauric body:", "Tauric Alteration") as null|anything in snowflake_taur_list
-		if(new_taur)
-			H.dna.features["taur"] = new_taur
-			if(new_taur != "None")
-				H.dna.features["mam_tail"] = "None"
 		H.update_body()
 
 	else if (select_alteration == "Penis")

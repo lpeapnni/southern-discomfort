@@ -101,7 +101,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 	var/eye_type = DEFAULT_EYES_TYPE	//Eye type
 	var/split_eye_colors = FALSE
 	var/datum/species/pref_species = new /datum/species/human()	//Mutant race
-	var/list/features = list("mcolor" = "FFFFFF", "mcolor2" = "FFFFFF", "mcolor3" = "FFFFFF", "tail_lizard" = "Smooth", "tail_human" = "None", "snout" = "Round", "horns" = "None", "horns_color" = "85615a", "ears" = "None", "wings" = "None", "wings_color" = "FFF", "frills" = "None", "deco_wings" = "None", "spines" = "None", "legs" = "Plantigrade", "insect_wings" = "Plain", "insect_fluff" = "None", "insect_markings" = "None", "arachnid_legs" = "Plain", "arachnid_spinneret" = "Plain", "arachnid_mandibles" = "Plain", "mam_body_markings" = list(), "mam_ears" = "None", "mam_snouts" = "None", "mam_tail" = "None", "mam_tail_animated" = "None", "xenodorsal" = "Standard", "xenohead" = "Standard", "xenotail" = "Xenomorph Tail", "taur" = "None", "genitals_use_skintone" = FALSE, "has_cock" = FALSE, "cock_shape" = DEF_COCK_SHAPE, "cock_length" = COCK_SIZE_DEF, "cock_diameter_ratio" = COCK_DIAMETER_RATIO_DEF, "cock_color" = "ffffff", "cock_taur" = FALSE, "has_balls" = FALSE, "balls_color" = "ffffff", "balls_shape" = DEF_BALLS_SHAPE, "balls_size" = BALLS_SIZE_DEF, "balls_cum_rate" = CUM_RATE, "balls_cum_mult" = CUM_RATE_MULT, "balls_efficiency" = CUM_EFFICIENCY, "has_breasts" = FALSE, "breasts_color" = "ffffff", "breasts_size" = BREASTS_SIZE_DEF, "breasts_shape" = DEF_BREASTS_SHAPE, "breasts_producing" = FALSE, "has_vag" = FALSE, "vag_shape" = DEF_VAGINA_SHAPE, "vag_color" = "ffffff", "has_womb" = FALSE, "balls_visibility"	= GEN_VISIBLE_NO_UNDIES, "breasts_visibility"= GEN_VISIBLE_NO_UNDIES, "cock_visibility"	= GEN_VISIBLE_NO_UNDIES, "vag_visibility"	= GEN_VISIBLE_NO_UNDIES, "ipc_screen" = "Sunburst", "ipc_antenna" = "None", "flavor_text" = "", "silicon_flavor_text" = "", "ooc_notes" = "", "meat_type" = "Mammalian", "body_model" = MALE, "body_size" = RESIZE_DEFAULT_SIZE, "color_scheme" = OLD_CHARACTER_COLORING)
+	var/list/features = list("mcolor" = "FFFFFF", "mcolor2" = "FFFFFF", "mcolor3" = "FFFFFF", "tail_lizard" = "Smooth", "tail_human" = "None", "snout" = "Round", "horns" = "None", "horns_color" = "85615a", "ears" = "None", "wings" = "None", "wings_color" = "FFF", "frills" = "None", "deco_wings" = "None", "spines" = "None", "legs" = "Plantigrade", "insect_wings" = "Plain", "insect_fluff" = "None", "insect_markings" = "None", "arachnid_legs" = "Plain", "arachnid_spinneret" = "Plain", "arachnid_mandibles" = "Plain", "mam_body_markings" = list(), "mam_ears" = "None", "mam_snouts" = "None", "mam_tail" = "None", "mam_tail_animated" = "None", "xenodorsal" = "Standard", "xenohead" = "Standard", "xenotail" = "Xenomorph Tail", "genitals_use_skintone" = FALSE, "has_cock" = FALSE, "cock_shape" = DEF_COCK_SHAPE, "cock_length" = COCK_SIZE_DEF, "cock_diameter_ratio" = COCK_DIAMETER_RATIO_DEF, "cock_color" = "ffffff", "has_balls" = FALSE, "balls_color" = "ffffff", "balls_shape" = DEF_BALLS_SHAPE, "balls_size" = BALLS_SIZE_DEF, "balls_cum_rate" = CUM_RATE, "balls_cum_mult" = CUM_RATE_MULT, "balls_efficiency" = CUM_EFFICIENCY, "has_breasts" = FALSE, "breasts_color" = "ffffff", "breasts_size" = BREASTS_SIZE_DEF, "breasts_shape" = DEF_BREASTS_SHAPE, "breasts_producing" = FALSE, "has_vag" = FALSE, "vag_shape" = DEF_VAGINA_SHAPE, "vag_color" = "ffffff", "has_womb" = FALSE, "balls_visibility"	= GEN_VISIBLE_NO_UNDIES, "breasts_visibility"= GEN_VISIBLE_NO_UNDIES, "cock_visibility"	= GEN_VISIBLE_NO_UNDIES, "vag_visibility"	= GEN_VISIBLE_NO_UNDIES, "ipc_screen" = "Sunburst", "ipc_antenna" = "None", "flavor_text" = "", "silicon_flavor_text" = "", "ooc_notes" = "", "meat_type" = "Mammalian", "body_model" = MALE, "body_size" = RESIZE_DEFAULT_SIZE, "color_scheme" = OLD_CHARACTER_COLORING)
 
 	var/custom_speech_verb = "default" //if your say_mod is to be something other than your races
 	var/custom_tongue = "default" //if your tongue is to be something other than your races
@@ -686,14 +686,7 @@ Records disabled until a use for them is found
 					if(!pref_species.use_skintones)
 						dat += "<b>Penis Color:</b></a><BR>"
 						dat += "<span style='border: 1px solid #161616; background-color: #[features["cock_color"]];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=cock_color;task=input'>Change</a><br>"
-					var/tauric_shape = FALSE
-					if(features["cock_taur"])
-						var/datum/sprite_accessory/penis/P = GLOB.cock_shapes_list[features["cock_shape"]]
-						if(P.taur_icon && parent.can_have_part("taur"))
-							var/datum/sprite_accessory/taur/T = GLOB.taur_list[features["taur"]]
-							if(T.taur_mode & P.accepted_taurs)
-								tauric_shape = TRUE
-					dat += "<b>Penis Shape:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=cock_shape;task=input'>[features["cock_shape"]][tauric_shape ? " (Taur)" : ""]</a>"
+					dat += "<b>Penis Shape:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=cock_shape;task=input'>[features["cock_shape"]]</a>"
 					dat += "<b>Penis Length:</b> <a style='display:block;width:120px' href='?_src_=prefs;preference=cock_length;task=input'>[features["cock_length"]] inch(es)</a>"
 					dat += "<b>Penis Visibility:</b><a style='display:block;width:100px' href='?_src_=prefs;preference=cock_visibility;task=input'>[features["cock_visibility"]]</a>"
 					dat += "<b>Has Testicles:</b><a style='display:block;width:50px' href='?_src_=prefs;preference=has_balls'>[features["has_balls"] == TRUE ? "Yes" : "No"]</a>"
@@ -1905,7 +1898,6 @@ Records disabled until a use for them is found
 					if(new_tail)
 						features["tail_lizard"] = new_tail
 						if(new_tail != "None")
-							features["taur"] = "None"
 							features["tail_human"] = "None"
 							features["mam_tail"] = "None"
 
@@ -1924,7 +1916,6 @@ Records disabled until a use for them is found
 					if(new_tail)
 						features["tail_human"] = new_tail
 						if(new_tail != "None")
-							features["taur"] = "None"
 							features["tail_lizard"] = "None"
 							features["mam_tail"] = "None"
 
@@ -1943,7 +1934,6 @@ Records disabled until a use for them is found
 					if(new_tail)
 						features["mam_tail"] = new_tail
 						if(new_tail != "None")
-							features["taur"] = "None"
 							features["tail_human"] = "None"
 							features["tail_lizard"] = "None"
 
@@ -2026,11 +2016,13 @@ Records disabled until a use for them is found
 					if(new_spines)
 						features["spines"] = new_spines
 
+				/*
 				if("legs")
 					var/new_legs
 					new_legs = input(user, "Choose your character's legs:", "Character Preference") as null|anything in GLOB.legs_list
 					if(new_legs)
 						features["legs"] = new_legs
+				*/
 
 				if("insect_wings")
 					var/new_insect_wings
@@ -2076,26 +2068,6 @@ Records disabled until a use for them is found
 							use_custom_skin_tone = FALSE
 							skin_tone = new_s_tone
 
-				if("taur")
-					var/list/snowflake_taur_list = list()
-					for(var/path in GLOB.taur_list)
-						var/datum/sprite_accessory/taur/instance = GLOB.taur_list[path]
-						if(istype(instance, /datum/sprite_accessory))
-							var/datum/sprite_accessory/S = instance
-							if(!show_mismatched_markings && S.recommended_species && !S.recommended_species.Find(pref_species.id))
-								continue
-							if((!S.ckeys_allowed) || (S.ckeys_allowed.Find(user.client.ckey)))
-								snowflake_taur_list[S.name] = path
-					var/new_taur
-					new_taur = input(user, "Choose your character's tauric body:", "Character Preference") as null|anything in snowflake_taur_list
-					if(new_taur)
-						features["taur"] = new_taur
-						if(new_taur != "None")
-							features["mam_tail"] = "None"
-							features["xenotail"] = "None"
-							features["tail_human"] = "None"
-							features["tail_lizard"] = "None"
-
 				if("ears")
 					var/list/snowflake_ears_list = list()
 					for(var/path in GLOB.ears_list)
@@ -2140,7 +2112,6 @@ Records disabled until a use for them is found
 						features["xenotail"] = new_tail
 						if(new_tail != "None")
 							features["mam_tail"] = "None"
-							features["taur"] = "None"
 							features["tail_human"] = "None"
 							features["tail_lizard"] = "None"
 
@@ -2151,7 +2122,7 @@ Records disabled until a use for them is found
 						features["xenodorsal"] = new_dors
 
 				//every single primary/secondary/tertiary colouring done at once
-				if("xenodorsal_primary","xenodorsal_secondary","xenodorsal_tertiary","xhead_primary","xhead_secondary","xhead_tertiary","tail_primary","tail_secondary","tail_tertiary","insect_markings_primary","insect_markings_secondary","insect_markings_tertiary","insect_fluff_primary","insect_fluff_secondary","insect_fluff_tertiary","ears_primary","ears_secondary","ears_tertiary","frills_primary","frills_secondary","frills_tertiary","ipc_antenna_primary","ipc_antenna_secondary","ipc_antenna_tertiary","taur_primary","taur_secondary","taur_tertiary","snout_primary","snout_secondary","snout_tertiary","spines_primary","spines_secondary","spines_tertiary", "mam_body_markings_primary", "mam_body_markings_secondary", "mam_body_markings_tertiary")
+				if("xenodorsal_primary","xenodorsal_secondary","xenodorsal_tertiary","xhead_primary","xhead_secondary","xhead_tertiary","tail_primary","tail_secondary","tail_tertiary","insect_markings_primary","insect_markings_secondary","insect_markings_tertiary","insect_fluff_primary","insect_fluff_secondary","insect_fluff_tertiary","ears_primary","ears_secondary","ears_tertiary","frills_primary","frills_secondary","frills_tertiary","ipc_antenna_primary","ipc_antenna_secondary","ipc_antenna_tertiary","snout_primary","snout_secondary","snout_tertiary","spines_primary","spines_secondary","spines_tertiary", "mam_body_markings_primary", "mam_body_markings_secondary", "mam_body_markings_tertiary")
 					var/the_feature = features[href_list["preference"]]
 					if(!the_feature)
 						features[href_list["preference"]] = "FFFFFF"
@@ -2195,19 +2166,8 @@ Records disabled until a use for them is found
 
 				if("cock_shape")
 					var/new_shape
-					var/list/hockeys = list()
-					if(parent.can_have_part("taur"))
-						var/datum/sprite_accessory/taur/T = GLOB.taur_list[features["taur"]]
-						for(var/A in GLOB.cock_shapes_list)
-							var/datum/sprite_accessory/penis/P = GLOB.cock_shapes_list[A]
-							if(P.taur_icon && T.taur_mode & P.accepted_taurs)
-								LAZYSET(hockeys, "[A] (Taur)", A)
-					new_shape = input(user, "Penis shape:", "Character Preference") as null|anything in (GLOB.cock_shapes_list + hockeys)
+					new_shape = input(user, "Penis shape:", "Character Preference") as null|anything in (GLOB.cock_shapes_list)
 					if(new_shape)
-						features["cock_taur"] = FALSE
-						if(hockeys[new_shape])
-							new_shape = hockeys[new_shape]
-							features["cock_taur"] = TRUE
 						features["cock_shape"] = new_shape
 
 				if("cock_visibility")
@@ -2432,7 +2392,7 @@ Records disabled until a use for them is found
 					// remove the specified marking
 					var/index = text2num(href_list["marking_index"])
 					var/marking_type = href_list["marking_type"]
-					if(index > 0 && marking_type && index < length(features[marking_type]))
+					if(index > 0 && marking_type && index <= length(features[marking_type]))
 						// because linters are just absolutely awful:
 						var/list/L = features[marking_type]
 						L.Cut(index, index + 1)

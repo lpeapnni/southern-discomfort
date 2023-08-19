@@ -1003,8 +1003,7 @@
 			H.dna.features["wings"] = "None"
 			H.dna.features["frills"] = "None"
 			H.dna.features["spines"] = "Long"
-			H.dna.features["legs"] = "Digitigrade"
-			H.dna.features["taur_body"] = "None"
+			H.dna.features["legs"] = "Plantigrade"
 			H.left_eye_color = "fee5a3"
 			H.right_eye_color = "fee5a3"
 			H.set_species(/datum/species/lizard)

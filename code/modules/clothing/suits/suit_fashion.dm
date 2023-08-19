@@ -387,7 +387,7 @@
 	desc = "A costume that looks like a certain shikigami, is super fluffy."
 	icon_state = "ran_suit"
 	item_state = "ran_suit"
-	flags_inv = HIDEJUMPSUIT|HIDETAUR
+	flags_inv = HIDEJUMPSUIT
 	heat_protection = CHEST|GROIN|LEGS //fluffy tails!
 	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_NO_ANTHRO_ICON
 
