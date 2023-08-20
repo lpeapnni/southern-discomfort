@@ -109,6 +109,7 @@
 	results = list(/datum/reagent/thermite = 3)
 	required_reagents = list(/datum/reagent/aluminium = 1, /datum/reagent/iron = 1, /datum/reagent/oxygen = 1)
 
+/*
 /datum/chemical_reaction/emp_pulse
 	name = "EMP Pulse"
 	id = "emp_pulse"
@@ -118,6 +119,7 @@
 	var/location = get_turf(holder.my_atom)
 	empulse(location, multiplier)
 	holder.clear_reagents()
+*/
 
 /datum/chemical_reaction/beesplosion
 	name = "Bee Explosion"
