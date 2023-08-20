@@ -32,7 +32,6 @@ GLOBAL_VAR_INIT(embedpocalypse, FALSE) // if true, all items will be able to emb
 	var/alternate_worn_layer
 
 	var/icon/anthro_mob_worn_overlay //Version of the above dedicated to muzzles/digitigrade
-	var/icon/taur_mob_worn_overlay // Idem but for taurs. Currently only used by suits.
 
 	var/list/alternate_screams = list() //REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
 

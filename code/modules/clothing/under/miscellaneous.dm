@@ -193,7 +193,6 @@
 	mob_overlay_icon = 'goon/icons/mob/worn_js_rank.dmi'
 	icon_state = "assistant"
 	item_state = "gy_suit"
-	mutantrace_variation = USE_TAUR_CLIP_MASK
 
 /obj/item/clothing/under/croptop
 	name = "crop top"
@@ -218,7 +217,6 @@
 	item_state = "plasmaman"
 	armor = list("melee" = 0, "bullet" = 0, "laser" = 0, "energy" = 0, "bomb" = 0, "bio" = 100, "rad" = 0, "fire" = 95, "acid" = 95)
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	mutantrace_variation = USE_TAUR_CLIP_MASK
 	can_adjust = FALSE
 	strip_delay = 80
 	var/next_extinguish = 0
@@ -293,7 +291,6 @@
 	icon_state = "squatteroutfit"
 	item_state = "squatteroutfit"
 	can_adjust = FALSE
-	mutantrace_variation = USE_TAUR_CLIP_MASK
 
 /obj/item/clothing/under/misc/blue_camo
 	name = "russian blue camo"
@@ -301,7 +298,6 @@
 	icon_state = "russobluecamo"
 	item_state = "russobluecamo"
 	can_adjust = FALSE
-	mutantrace_variation = USE_TAUR_CLIP_MASK
 
 /obj/item/clothing/under/misc/keyholesweater
 	name = "keyhole sweater"
@@ -335,7 +331,6 @@
 	icon_state = "tssuit"
 	item_state = "r_suit"
 	can_adjust = FALSE
-	mutantrace_variation = USE_TAUR_CLIP_MASK
 
 /obj/item/clothing/under/misc/poly_shirt
 	name = "polychromic button-up shirt"

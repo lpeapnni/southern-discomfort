@@ -444,9 +444,9 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 				"arachnid_legs" = "Plain", "arachnid_spinneret" = "Plain", "arachnid_mandibles" = "Plain",
 				"mam_body_markings" = list(), "mam_ears" = "None", "mam_snouts" = "None", "mam_tail" = "None",
 				"mam_tail_animated" = "None", "xenodorsal" = "Standard", "xenohead" = "Standard", "xenotail" = "Xenomorph Tail",
-				"taur" = "None", "genitals_use_skintone" = FALSE, "has_cock" = FALSE, "cock_shape" = DEF_COCK_SHAPE,
+				"genitals_use_skintone" = FALSE, "has_cock" = FALSE, "cock_shape" = DEF_COCK_SHAPE,
 				"cock_length" = COCK_SIZE_DEF, "cock_diameter_ratio" = COCK_DIAMETER_RATIO_DEF, "cock_color" = "ffffff",
-				"cock_taur" = FALSE, "has_balls" = FALSE, "balls_color" = "ffffff", "balls_shape" = DEF_BALLS_SHAPE,
+				"has_balls" = FALSE, "balls_color" = "ffffff", "balls_shape" = DEF_BALLS_SHAPE,
 				"balls_size" = BALLS_SIZE_DEF, "balls_cum_rate" = CUM_RATE, "balls_cum_mult" = CUM_RATE_MULT,
 				"balls_efficiency" = CUM_EFFICIENCY, "has_breasts" = FALSE, "breasts_color" = "ffffff",
 				"breasts_size" = BREASTS_SIZE_DEF, "breasts_shape" = DEF_BREASTS_SHAPE, "breasts_producing" = FALSE,
@@ -577,7 +577,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["feature_mam_tail"]				>> features["mam_tail"]
 	S["feature_mam_ears"]				>> features["mam_ears"]
 	S["feature_mam_tail_animated"]		>> features["mam_tail_animated"]
-	S["feature_taur"]					>> features["taur"]
 	S["feature_mam_snouts"]				>> features["mam_snouts"]
 	S["feature_meat"]					>> features["meat_type"]
 	//Xeno features
@@ -590,7 +589,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	S["feature_cock_color"]				>> features["cock_color"]
 	S["feature_cock_length"]			>> features["cock_length"]
 	S["feature_cock_diameter"]			>> features["cock_diameter"]
-	S["feature_cock_taur"]				>> features["cock_taur"]
 	S["feature_cock_visibility"]		>> features["cock_visibility"]
 	//balls features
 	S["feature_has_balls"]				>> features["has_balls"]
@@ -710,7 +708,8 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["ears"]				= sanitize_inlist(features["ears"], GLOB.ears_list)
 	features["frills"]				= sanitize_inlist(features["frills"], GLOB.frills_list)
 	features["spines"]				= sanitize_inlist(features["spines"], GLOB.spines_list)
-	features["legs"]				= sanitize_inlist(features["legs"], GLOB.legs_list, "Plantigrade")
+	// features["legs"]				= sanitize_inlist(features["legs"], GLOB.legs_list, "Plantigrade")
+	features["legs"]				= "Plantigrade" // digitigrade legs are disabled for now, but if someone wants to do all the spriting work be my guest to reenable this shit
 	features["deco_wings"] 			= sanitize_inlist(features["deco_wings"], GLOB.deco_wings_list, "None")
 	features["insect_fluff"]		= sanitize_inlist(features["insect_fluff"], GLOB.insect_fluffs_list)
 	features["insect_markings"] 	= sanitize_inlist(features["insect_markings"], GLOB.insect_markings_list, "None")
@@ -882,7 +881,6 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["feature_cock_shape"], features["cock_shape"])
 	WRITE_FILE(S["feature_cock_color"], features["cock_color"])
 	WRITE_FILE(S["feature_cock_length"], features["cock_length"])
-	WRITE_FILE(S["feature_cock_taur"], features["cock_taur"])
 	WRITE_FILE(S["feature_cock_visibility"], features["cock_visibility"])
 
 	WRITE_FILE(S["feature_has_balls"], features["has_balls"])

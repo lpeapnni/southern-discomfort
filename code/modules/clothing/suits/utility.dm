@@ -50,7 +50,7 @@
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	slowdown = 1
 	armor = list("melee" = 15, "bullet" = 5, "laser" = 20, "energy" = 20, "bomb" = 20, "bio" = 10, "fire" = 100, "acid" = 50)
-	flags_inv = HIDEGLOVES|HIDESHOES|HIDEJUMPSUIT|HIDETAUR
+	flags_inv = HIDEGLOVES|HIDESHOES|HIDEJUMPSUIT
 	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL
 	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	max_heat_protection_temperature = FIRE_SUIT_MAX_TEMP_PROTECT
@@ -96,7 +96,7 @@
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	slowdown = 2
 	armor = list("melee" = 15, "bullet" = 5, "laser" = 20, "energy" = 20, "bomb" = 100, "bio" = 10, "fire" = 100, "acid" = 50)
-	flags_inv = HIDEJUMPSUIT|HIDETAUR
+	flags_inv = HIDEJUMPSUIT
 	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	max_heat_protection_temperature = ARMOR_MAX_TEMP_PROTECT
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -104,7 +104,7 @@
 	strip_delay = 70
 	equip_delay_other = 70
 	resistance_flags = NONE
-	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_SNEK_TAURIC|STYLE_PAW_TAURIC
+	mutantrace_variation = STYLE_DIGITIGRADE
 
 
 /obj/item/clothing/head/bomb_hood/security
@@ -156,7 +156,7 @@
 	armor = list("melee" = 15, "bullet" = 5, "laser" = 20, "energy" = 0, "bomb" = 0, "bio" = 60, "rad" = 100, "fire" = 30, "acid" = 30)
 	strip_delay = 60
 	equip_delay_other = 60
-	flags_inv = HIDEJUMPSUIT|HIDETAUR
+	flags_inv = HIDEJUMPSUIT
 	resistance_flags = NONE
 	rad_flags = RAD_PROTECT_CONTENTS | RAD_NO_CONTAMINATE
-	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_ALL_TAURIC
+	mutantrace_variation = STYLE_DIGITIGRADE

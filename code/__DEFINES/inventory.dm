@@ -107,9 +107,8 @@
 #define HIDEHAIR		(1<<8)
 #define HIDEFACIALHAIR	(1<<9)
 #define HIDENECK		(1<<10)
-#define HIDETAUR		(1<<11) //gotta hide that snowflake
-#define HIDESNOUT		(1<<12) //or do we actually hide our snoots
-#define HIDEACCESSORY	(1<<13) //hides the jumpsuit accessory.
+#define HIDESNOUT		(1<<11) //or do we actually hide our snoots
+#define HIDEACCESSORY	(1<<12) //hides the jumpsuit accessory.
 
 //bitflags for clothing coverage - also used for limbs
 #define HEAD		(1<<0)
@@ -142,14 +141,7 @@
 //flags for outfits that have mutant race variants: Most of these require additional sprites to work.
 #define STYLE_DIGITIGRADE		(1<<0) //jumpsuits, suits and shoes
 #define STYLE_MUZZLE			(1<<1) //hats or masks
-#define STYLE_SNEK_TAURIC		(1<<2) //taur-friendly suits
-#define STYLE_PAW_TAURIC		(1<<3)
-#define STYLE_HOOF_TAURIC		(1<<4)
-#define STYLE_ALL_TAURIC		(STYLE_SNEK_TAURIC|STYLE_PAW_TAURIC|STYLE_HOOF_TAURIC)
-#define STYLE_NO_ANTHRO_ICON	(1<<5) //When digis fit the default sprite fine and need no copypasted states. This is the case of skirts and winter coats, for example.
-#define USE_SNEK_CLIP_MASK		(1<<6)
-#define USE_QUADRUPED_CLIP_MASK	(1<<7)
-#define USE_TAUR_CLIP_MASK		(USE_SNEK_CLIP_MASK|USE_QUADRUPED_CLIP_MASK)
+#define STYLE_NO_ANTHRO_ICON	(1<<2) //When digis fit the default sprite fine and need no copypasted states. This is the case of skirts and winter coats, for example.
 
 //digitigrade legs settings.
 #define NOT_DIGITIGRADE				0

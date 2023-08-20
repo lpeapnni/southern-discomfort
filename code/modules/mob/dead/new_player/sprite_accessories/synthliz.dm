@@ -1,3 +1,5 @@
+// IF YOU USE ANY OF THESE... YOU ARE MID
+
 //Synth snouts (This is the most important part)
 /datum/sprite_accessory/snouts/mam_snouts/synthliz
 	recommended_species = list("synthliz")
@@ -120,41 +122,3 @@
 	name = "Synthetic Lizard - Thick Light"
 	icon_state = "synth_thicklight"
 	matrixed_sections = MATRIX_RED_BLUE
-
-//Synth Taurs (Ported from Virgo)
-/datum/sprite_accessory/taur/synthliz
-	name = "Virgo - Synthetic Lizard"
-	icon_state = "synthlizard"
-	taur_mode = STYLE_PAW_TAURIC
-	recommended_species = list("synthliz")
-	matrixed_sections = MATRIX_RED_GREEN
-
-/datum/sprite_accessory/taur/synthliz/inv
-	name = "Virgo - Synthetic Lizard (Inverted)"
-	icon_state = "synthlizardinv"
-
-/datum/sprite_accessory/taur/synthliz/feline
-	name = "Virgo - Synthetic Feline"
-	icon_state = "synthfeline"
-
-/datum/sprite_accessory/taur/synthliz/feline/inv
-	name = "Virgo - Synthetic Feline (Inverted)"
-	icon_state = "synthfelineinv"
-
-/datum/sprite_accessory/taur/synthliz/horse
-	name = "Virgo - Synthetic Horse"
-	icon_state = "synthhorse"
-	taur_mode = STYLE_HOOF_TAURIC
-	alt_taur_mode = STYLE_PAW_TAURIC
-
-/datum/sprite_accessory/taur/synthliz/horse/inv
-	name = "Virgo - Synthetic Horse (Inverted)"
-	icon_state = "synthhorseinv"
-
-/datum/sprite_accessory/taur/synthliz/wolf
-	name = "Virgo - Synthetic Wolf"
-	icon_state = "synthwolf"
-
-/datum/sprite_accessory/taur/synthliz/wolf/inv
-	name = "Virgo - Synthetic Wolf (Inverted)"
-	icon_state = "synthwolfinv"

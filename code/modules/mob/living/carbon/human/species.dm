@@ -359,19 +359,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 			H.type_of_meat = GLOB.meat_types[H.dna.features["meat_type"]]
 
 		if(H.physiology)
-			if(mutant_bodyparts["taur"])
-				var/datum/sprite_accessory/taur/T = GLOB.taur_list[H.dna.features["taur"]]
-				switch(T?.taur_mode)
-					if(STYLE_HOOF_TAURIC)
-						H.physiology.footstep_type = FOOTSTEP_MOB_SHOE
-					if(STYLE_PAW_TAURIC)
-						H.physiology.footstep_type = FOOTSTEP_MOB_CLAW
-					if(STYLE_SNEK_TAURIC)
-						H.physiology.footstep_type = FOOTSTEP_MOB_CRAWL
-					else
-						H.physiology.footstep_type = null
-			else
-				H.physiology.footstep_type = null
+			H.physiology.footstep_type = null
 
 		if(H.client && has_field_of_vision && CONFIG_GET(flag/use_field_of_vision))
 			H.LoadComponent(/datum/component/field_of_vision, H.field_of_vision_type)
@@ -636,10 +624,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 
 	//Underwear, Undershirts & Socks
 	if(!(NO_UNDERWEAR in species_traits))
-		var/datum/sprite_accessory/taur/TA
-		if(mutant_bodyparts["taur"] && H.dna.features["taur"])
-			TA = GLOB.taur_list[H.dna.features["taur"]]
-		if(!(TA?.hide_legs) && H.socks && !H.hidden_socks && H.get_num_legs(FALSE) >= 2)
+		if(H.socks && !H.hidden_socks && H.get_num_legs(FALSE) >= 2)
 			if(H.saved_socks)
 				H.socks = H.saved_socks
 				H.saved_socks = ""
@@ -706,8 +691,6 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 	if(!mutant_bodyparts)
 		return
 
-	var/tauric = mutant_bodyparts["taur"] && H.dna.features["taur"] && H.dna.features["taur"] != "None"
-
 	for(var/mutant_part in mutant_bodyparts)
 		var/reference_list = GLOB.mutant_reference_list[mutant_part]
 		if(reference_list)
@@ -717,7 +700,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 				S = reference_list[H.dna.features[transformed_part]]
 			else
 				S = reference_list[H.dna.features[mutant_part]]
-			if(!S || S.is_not_visible(H, tauric))
+			if(!S || S.is_not_visible(H))
 				bodyparts_to_add -= mutant_part
 
 	//Digitigrade legs are stuck in the phantom zone between true limbs and mutant bodyparts. Mainly it just needs more agressive updating than most limbs.
@@ -732,7 +715,7 @@ GLOBAL_LIST_EMPTY(roundstart_race_names)
 			species_traits += DIGITIGRADE
 		var/should_be_squished = FALSE
 		if(H.wear_suit)
-			if(!(H.wear_suit.mutantrace_variation & STYLE_DIGITIGRADE) || (tauric && (H.wear_suit.mutantrace_variation & STYLE_ALL_TAURIC))) //digitigrade/taur suits
+			if(!(H.wear_suit.mutantrace_variation & STYLE_DIGITIGRADE)) //digitigrade suits
 				should_be_squished = TRUE
 		if(H.w_uniform && !H.wear_suit)
 			if(!(H.w_uniform.mutantrace_variation & STYLE_DIGITIGRADE))

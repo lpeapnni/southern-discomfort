@@ -300,7 +300,7 @@
 	relevant_layers = list(BODY_FRONT_LAYER)
 	mutant_part_string = "insect_fluff"
 
-/datum/sprite_accessory/insect_fluff/is_not_visible(mob/living/carbon/human/H, tauric)
+/datum/sprite_accessory/insect_fluff/is_not_visible(mob/living/carbon/human/H)
 	return (!H.dna.features["insect_fluff"] || H.dna.features["insect_fluff"] == "None" || H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT))
 
 /datum/sprite_accessory/insect_fluff/none

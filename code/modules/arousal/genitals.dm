@@ -277,13 +277,6 @@
 			var/do_center = S.center
 			var/dim_x = S.dimension_x
 			var/dim_y = S.dimension_y
-			if(G.genital_flags & GENITAL_CAN_TAUR && S.taur_icon && (!S.feat_taur || dna.features[S.feat_taur]) && dna.species.mutant_bodyparts["taur"])
-				var/datum/sprite_accessory/taur/T = GLOB.taur_list[dna.features["taur"]]
-				if(T?.taur_mode & S.accepted_taurs)
-					accessory_icon = S.taur_icon
-					do_center = TRUE
-					dim_x = S.taur_dimension_x
-					dim_y = S.taur_dimension_y
 
 			var/mutable_appearance/genital_overlay = mutable_appearance(accessory_icon, layer = -layer)
 			if(do_center)

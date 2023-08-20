@@ -249,7 +249,7 @@ Contains:
 	helmettype = /obj/item/clothing/head/helmet/space/hardsuit/ert/alert
 	armor = list("melee" = 65, "bullet" = 50, "laser" = 50, "energy" = 50, "bomb" = 50, "bio" = 100, "rad" = 100, "fire" = 80, "acid" = 80)
 	resistance_flags = FIRE_PROOF | ACID_PROOF
-	mutantrace_variation = STYLE_DIGITIGRADE|STYLE_SNEK_TAURIC
+	mutantrace_variation = STYLE_DIGITIGRADE
 
 	//ERT Security
 /obj/item/clothing/head/helmet/space/hardsuit/ert/alert/sec

@@ -40,7 +40,6 @@
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/ears/mam_ears, GLOB.mam_ears_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/snouts/mam_snouts, GLOB.mam_snouts_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/tails_animated/mam_tails_animated, GLOB.mam_tails_animated_list)
-	init_sprite_accessory_subtypes(/datum/sprite_accessory/taur, GLOB.taur_list)
 	//xeno parts (hiss?)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/xeno_head, GLOB.xeno_head_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/xeno_tail, GLOB.xeno_tail_list)

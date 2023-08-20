@@ -5,7 +5,7 @@
 	body_parts_covered = GROIN
 	fitted = NO_FEMALE_UNIFORM
 	can_adjust = FALSE
-	mutantrace_variation = STYLE_DIGITIGRADE //how do they show up on taurs otherwise?
+	mutantrace_variation = STYLE_DIGITIGRADE
 
 /obj/item/clothing/under/shorts/red
 	name = "red athletic shorts"
