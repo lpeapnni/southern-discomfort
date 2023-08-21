@@ -26,7 +26,7 @@
 
 /obj/effect/spawner/faction_item/ncr
 	name = "NCR objective item spawner"
-	associated_faction = /datum/antagonist/faction/legion
+	associated_faction = /datum/antagonist/faction/ncr
 
 /obj/effect/spawner/faction_item/bos
 	name = "BOS objective item spawner"
@@ -35,3 +35,7 @@
 /obj/effect/spawner/faction_item/tribal
 	name = "tribal objective item spawner"
 	associated_faction = /datum/antagonist/faction/tribal
+
+/obj/effect/spawner/faction_item/bighorn
+	name = "tribal objective item spawner"
+	associated_faction = /datum/antagonist/faction/bighorn
