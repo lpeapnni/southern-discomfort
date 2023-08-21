@@ -28,6 +28,11 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	enforces = "The NCR expects: Obeying the lawful orders of superiors. Proper treatment of prisoners.  Good conduct within the Republic's laws. Wearing the uniform."
 	objectivesList = list("Leadership recommends the following goal for this week: Establish an outpost at the radio tower","Leadership recommends the following goal for this week: Neutralize and capture dangerous criminals", "Leadership recommends the following goal for this week: Free slaves and establish good relations with unaligned individuals.")
 
+/datum/job/ncr/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
+	. = ..()
+	spawner.mind.add_antag_datum(/datum/antagonist/faction/ncr)
+	add_verb(spawner,/mob/living/proc/view_faction_objective)
+
 /datum/outfit/job/ncr
 	name = "NCRdatums"
 	jobtype = /datum/job/ncr
@@ -70,6 +75,10 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 	spawn_positions = 0
 
 	outfit = /datum/outfit/job/ncr/f13colonel
+
+/datum/job/ncr/f13colonel/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
+	. = ..()
+	add_verb(spawner,/mob/living/proc/add_ncr_objective)
 
 /datum/outfit/job/ncr/f13colonel/pre_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -162,6 +171,10 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		/datum/outfit/loadout/captainfrontline, // Pancor Jackhammer, The Court Martial, Desert Eagle
 		)
 
+/datum/job/ncr/f13captain/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
+	. = ..()
+	add_verb(spawner,/mob/living/proc/add_ncr_objective)
+
 /datum/outfit/job/ncr/f13captain/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
@@ -244,6 +257,10 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 		),
 	)
 
+/datum/job/ncr/f13lieutenant/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
+	. = ..()
+	add_verb(spawner,/mob/living/proc/add_ncr_objective)
+
 /datum/outfit/job/ncr/f13lieutenant		// Republic's Pride, Binoculars, Bayonet, M1911 custom
 	name = "NCR Lieutenant"
 	jobtype	= /datum/job/ncr/f13lieutenant
@@ -310,6 +327,10 @@ Weapons		Service Rifle, Grease Gun, 9mm pistol, all good.
 			/datum/job/ncr,
 		),
 		)
+
+/datum/job/ncr/f13sergeant/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
+	. = ..()
+	add_verb(spawner,/mob/living/proc/add_ncr_objective)
 
 /datum/outfit/job/ncr/f13sergeant/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()

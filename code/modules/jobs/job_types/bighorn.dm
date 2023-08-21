@@ -24,6 +24,11 @@ Will probably start phasing more of this to actual custom access as we go.
 	exp_type = EXP_TYPE_BIGHORN
 	faction = FACTION_BIGHORN
 
+/datum/job/bighorn/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
+	. = ..()
+	spawner.mind.add_antag_datum(/datum/antagonist/faction/bighorn)
+	add_verb(spawner,/mob/living/proc/view_faction_objective)
+
 /*
 Mayor
 */
