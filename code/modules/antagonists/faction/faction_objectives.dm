@@ -9,6 +9,8 @@
 	var/list/faction_items = list()
 	///If this isn't null, everyone gets this objective.
 	var/list/everyone_objective = null
+	///Intel message sent to faction comms consoles.
+	var/intel_message = null
 
 /datum/faction_objectives/test
 	name = "Test"
@@ -24,3 +26,4 @@
 		Collect the debt owed by our clients from the departments on the station. \
 		Make sure to get to them before those damn mafiosos do."
 	)
+	intel_message = "IDFK what to put here"
