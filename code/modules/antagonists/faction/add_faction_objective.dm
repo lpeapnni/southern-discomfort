@@ -1,7 +1,7 @@
 /mob/living/proc/add_legion_objective()
 	set name = "Add Legion Objective"
 	set category = "IC"
-	add_faction_objective(/datum/antagonist/faction/legion, list("Legion Legate", "Legion Centurion", "Legion Veteran Decanus", "Legion Prime Decanus", "Legion Recruit Decanus"))
+	add_faction_objective(/datum/antagonist/faction/legion, list("Legion Legate", "Legion Centurion", "Legion Veteran Decanus"))
 
 /mob/living/proc/add_ncr_objective()
 	set name = "Add NCR Objective"

@@ -86,9 +86,9 @@
 
 /datum/antagonist/faction/legion
 	show_in_antagpanel = TRUE
-	name = "Legionarie"
-	roundend_category = "Ceasar's Legion"
-	faction_name = "Ceasar's Legion"
+	name = "Legionary"
+	roundend_category = "The Boreal Legion"
+	faction_name = "The Boreal Legion"
 	faction_id = "LEG"
 	faction_team_type = /datum/team/faction/legion
 
@@ -97,9 +97,9 @@
 
 /datum/antagonist/faction/ncr
 	show_in_antagpanel = TRUE
-	name = "NCR Soldier"
-	roundend_category = "The New California Republic"
-	faction_name = "New California Republic Army"
+	name = "PRNC Soldier"
+	roundend_category = "The People's Republic of New California"
+	faction_name = "The Californian People's Liberation Force"
 	faction_id = "NCR"
 	faction_team_type = /datum/team/faction/ncr
 
@@ -108,7 +108,7 @@
 
 /datum/antagonist/faction/bos
 	show_in_antagpanel = TRUE
-	name = "BOS Member"
+	name = "Brotherhood of Steel Cultist"
 	roundend_category = "The Brotherhood of Steel"
 	faction_name = "Brotherhood of Steel"
 	faction_id = "BOS"
@@ -127,13 +127,13 @@
 	faction_team_type = /datum/team/faction/tribal
 
 /datum/team/faction/bighorn
-	faction_id = "BH"
+	faction_id = "TOWN"
 
 /datum/antagonist/faction/bighorn
 	show_in_antagpanel = TRUE
 	name = "Bighorn Citizen"
 	roundend_category = "Bighorn"
 	faction_name = "Bighorn"
-	faction_id = "BH"
+	faction_id = "TOWN"
 	faction_team_type = /datum/team/faction/bighorn
 
