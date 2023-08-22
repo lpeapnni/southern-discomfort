@@ -37,5 +37,5 @@
 	associated_faction = /datum/antagonist/faction/tribal
 
 /obj/effect/spawner/faction_item/bighorn
-	name = "tribal objective item spawner"
+	name = "bighorn objective item spawner"
 	associated_faction = /datum/antagonist/faction/bighorn
