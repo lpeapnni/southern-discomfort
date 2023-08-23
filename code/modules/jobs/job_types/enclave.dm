@@ -12,7 +12,6 @@
 
 /datum/outfit/job/enclave
 	id = null
-	ears = /obj/item/radio/headset/headset_enclave
 	glasses = /obj/item/clothing/glasses/night/f13/enclave
 	box = /obj/item/storage/survivalkit_adv
 
@@ -77,7 +76,6 @@
 	suit = /obj/item/clothing/suit/armor/f13/enclavetrenchcoat
 	accessory = /obj/item/clothing/accessory/enclave/first_lieutenant
 	id = /obj/item/card/id/dogtag/enclave/officer
-	ears = /obj/item/radio/headset/headset_enclave/command
 	l_pocket = /obj/item/clothing/mask/chameleon
 
 	backpack_contents = list(
@@ -161,7 +159,6 @@
 	head = /obj/item/clothing/head/helmet/f13/power_armor/tesla
 	suit = /obj/item/clothing/suit/armor/f13/power_armor/tesla
 	accessory = /obj/item/clothing/accessory/enclave/sergeant_firstclass
-	ears = /obj/item/radio/headset/headset_enclave/command
 	l_pocket = /obj/item/clothing/mask/chameleon
 
 	backpack_contents = list(
@@ -465,7 +462,6 @@
 	suit = /obj/item/clothing/suit/armor/f13/usmcriot/armypilot//TEMP UNTIL WE GET A PROPER PILOT UNIFORM
 	accessory = /obj/item/clothing/accessory/enclave/second_lieutenant
 	id = /obj/item/card/id/dogtag/enclave/officer
-	ears = /obj/item/radio/headset/headset_enclave/command
 
 	backpack_contents = list(
 		/obj/item/storage/survivalkit_aid_adv = 1,

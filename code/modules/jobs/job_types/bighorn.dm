@@ -57,7 +57,6 @@ Mayor
 /datum/outfit/job/bighorn/f13mayor
 	name = "Mayor"
 	jobtype = 	/datum/job/bighorn/f13mayor
-	ears =		/obj/item/radio/headset/headset_sheriff
 	id =		/obj/item/card/id/silver/mayor
 	backpack = 	/obj/item/storage/backpack/satchel/explorer
 	satchel = 	/obj/item/storage/backpack/satchel/explorer
@@ -97,7 +96,6 @@ Mayor
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 
-	ears = 			/obj/item/radio/headset/headset_sheriff
 	uniform =  		/obj/item/clothing/under/f13/sheriff
 	neck =			/obj/item/storage/belt/holster/sheriff
 	shoes = 		/obj/item/clothing/shoes/f13/cowboy
@@ -143,7 +141,6 @@ Mayor
 /datum/outfit/job/bighorn/f13deputy
 	name = "Deputy"
 	jobtype = /datum/job/bighorn/f13deputy
-	ears = 			/obj/item/radio/headset/headset_sheriff
 	id =            /obj/item/card/id/dogtag/deputy
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -193,7 +190,6 @@ Mayor
 	suit = /obj/item/clothing/suit/armor/f13/leather_jacket/combat/sierra
 	neck =	/obj/item/storage/belt/holster
 	id = /obj/item/card/id/silver
-	ears = /obj/item/radio/headset/headset_town
 	shoes = /obj/item/clothing/shoes/f13/fancy
 	backpack = /obj/item/storage/backpack/satchel/leather
 	satchel = /obj/item/storage/backpack/satchel/leather
@@ -222,7 +218,6 @@ Mayor
 /datum/outfit/job/bighorn/shopmerc
 	name = "Mercenary"
 	jobtype = /datum/job/bighorn/shopmerc
-	ears = /obj/item/radio/headset/headset_town
 	id =   /obj/item/card/id/silver
 	backpack = /obj/item/storage/backpack/satchel/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
@@ -285,7 +280,6 @@ Mayor
 
 	uniform = /obj/item/clothing/under/f13/bartenderalt
 	id = /obj/item/card/id/dogtag/town
-	ears = /obj/item/radio/headset/headset_town
 	belt = /obj/item/gun/ballistic/revolver/caravan_shotgun
 	shoes = /obj/item/clothing/shoes/workboots/mining
 	backpack = /obj/item/storage/backpack/satchel/leather
@@ -364,7 +358,6 @@ Mayor
 
 	id = /obj/item/card/id/dogtag/town
 	uniform = /obj/item/clothing/under/f13/roving
-	ears = /obj/item/radio/headset/headset_town
 	backpack = /obj/item/storage/backpack
 	satchel = /obj/item/storage/backpack/satchel
 	duffelbag = /obj/item/storage/backpack/duffelbag
@@ -609,7 +602,6 @@ Mayor
 	jobtype = /datum/job/bighorn/f13preacher
 
 	id = /obj/item/card/id/dogtag/town
-	ears = /obj/item/radio/headset/headset_town
 	belt = null
 	uniform = 		/obj/item/clothing/under/f13/chaplain
 	gloves =		/obj/item/clothing/gloves/fingerless
@@ -629,7 +621,6 @@ Mayor
 /datum/outfit/job/bighorn/f13settler
 	name = "Citizen"
 	jobtype = /datum/job/bighorn/f13settler
-	ears = /obj/item/radio/headset/headset_town
 	belt = null
 	id = /obj/item/card/id/dogtag/town
 	uniform = /obj/item/clothing/under/f13/settler
@@ -753,7 +744,6 @@ Mayor
 /datum/outfit/job/bighorn/f13secretary
 	name = "Secretary"
 	jobtype = /datum/job/bighorn/f13secretary
-	ears = 			/obj/item/radio/headset/headset_town
 	l_pocket = /obj/item/storage/bag/money/small/settler
 	shoes = /obj/item/clothing/shoes/laceup
 	backpack_contents = list(/obj/item/clothing/under/f13/classdress = 1,

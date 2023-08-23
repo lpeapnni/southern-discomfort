@@ -15,7 +15,7 @@
 	obj_flags = USES_TGUI
 
 	var/on = TRUE
-	var/frequency = FREQ_COMMON
+	var/frequency = null
 	var/canhear_range = 3  // The range around the radio in which mobs can hear what it receives.
 
 	var/broadcasting = FALSE  // Whether the radio will transmit dialogue it hears nearby.
@@ -117,6 +117,8 @@
 		wires.cut(WIRE_TX) // OH GOD WHY
 	secure_radio_connections = new
 	. = ..()
+	if(!frequency)
+		frequency = rand(MIN_FREQ, MAX_FREQ)
 	frequency = sanitize_frequency(frequency, freerange)
 	set_frequency(frequency)
 

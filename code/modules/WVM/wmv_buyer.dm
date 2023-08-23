@@ -248,8 +248,7 @@ Fence
 /obj/machinery/mineral/wasteland_trader/brotherhood
 	name = "Brotherhood of Steal"
 
-	goods_list = list( /obj/item/radio/headset/headset_bos = 15,
-								/obj/item/clothing/under/syndicate/brotherhood = 15,
+	goods_list = list( /obj/item/clothing/under/syndicate/brotherhood = 15,
 								/obj/item/card/id/dogtag = 30,
 								/obj/item/clothing/shoes/combat/swat = 5,
 								/obj/item/clothing/gloves/combat = 5,

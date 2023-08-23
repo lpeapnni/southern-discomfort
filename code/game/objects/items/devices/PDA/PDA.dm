@@ -97,7 +97,7 @@ GLOBAL_LIST_EMPTY(PDAs)
 
 	var/list/blocked_pdas
 
-	var/list/saved_frequencies = list("Common" = FREQ_COMMON)
+	var/list/saved_frequencies = list()
 
 /obj/item/pda/suicide_act(mob/living/carbon/user)
 	var/deathMessage = msg_input(user)
