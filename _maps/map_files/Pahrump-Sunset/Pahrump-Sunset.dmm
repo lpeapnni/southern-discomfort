@@ -59,9 +59,6 @@
 	},
 /area/f13/tunnel/northeast)
 "aat" = (
-/obj/effect/landmark/vertibird{
-	name = "Bighorn Exterior"
-	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalinnermain0"
 	},
@@ -141,9 +138,6 @@
 	},
 /area/f13/building/massfusion)
 "aaJ" = (
-/obj/effect/landmark/vertibird{
-	name = "Mall Parking Lot"
-	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain2"
 	},
@@ -12981,9 +12975,6 @@
 /turf/open/floor/f13/wood,
 /area/f13/village)
 "aUN" = (
-/obj/effect/landmark/vertibird{
-	name = "West of Mass Fusion"
-	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland/quarry)
 "aUO" = (
@@ -29239,13 +29230,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/bighorn)
-"gvL" = (
-/turf/closed/indestructible/f13/matrix/transition{
-	destination_x = 246;
-	destination_y = 75;
-	destination_z = 11
-	},
-/area/f13/tunnel/northeast)
 "gvR" = (
 /obj/structure/simple_door/metal/dirtystore,
 /turf/open/floor/f13/wood,
@@ -32089,13 +32073,6 @@
 	icon_state = "yellowrustychess"
 	},
 /area/f13/building/massfusion)
-"irY" = (
-/turf/closed/indestructible/f13/matrix/transition{
-	destination_x = 248;
-	destination_y = 75;
-	destination_z = 11
-	},
-/area/f13/tunnel/northeast)
 "isj" = (
 /mob/living/simple_animal/hostile/raider/ranged{
 	name = "City Boys Raider"
@@ -35196,9 +35173,6 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/bighorn)
 "koj" = (
-/obj/effect/landmark/vertibird{
-	name = "West of North Bunker"
-	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/ruins)
 "kox" = (
@@ -36566,13 +36540,6 @@
 	destination_z = 7
 	},
 /area/f13/tunnel/northwest)
-"lew" = (
-/turf/closed/indestructible/f13/matrix/transition{
-	destination_x = 247;
-	destination_y = 75;
-	destination_z = 11
-	},
-/area/f13/tunnel/northeast)
 "leO" = (
 /obj/structure/flora/tree/tall{
 	icon_state = "tree_2"
@@ -42369,13 +42336,6 @@
 /obj/item/storage/trash_stack,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/building/massfusion)
-"oGu" = (
-/turf/closed/indestructible/f13/matrix/transition{
-	destination_x = 243;
-	destination_y = 75;
-	destination_z = 11
-	},
-/area/f13/tunnel/northeast)
 "oHk" = (
 /obj/machinery/light{
 	dir = 1
@@ -42451,9 +42411,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/mall)
 "oJH" = (
-/obj/effect/landmark/vertibird{
-	name = "East of Hospital"
-	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/east)
 "oJI" = (
@@ -54589,13 +54546,6 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
 /area/f13/building)
-"wiN" = (
-/turf/closed/indestructible/f13/matrix/transition{
-	destination_x = 244;
-	destination_y = 75;
-	destination_z = 11
-	},
-/area/f13/tunnel/northeast)
 "wiS" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "hospitalgarage1";
@@ -56610,13 +56560,6 @@
 /obj/structure/timeddoor/sixtyminute,
 /turf/closed/wall/f13/tunnel,
 /area/f13/building/massfusion)
-"xwV" = (
-/turf/closed/indestructible/f13/matrix/transition{
-	destination_x = 245;
-	destination_y = 75;
-	destination_z = 11
-	},
-/area/f13/tunnel/northeast)
 "xxx" = (
 /obj/structure/simple_door/interior,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -117052,7 +116995,7 @@ aae
 aaa
 "}
 (231,1,1) = {"
-oGu
+aag
 aao
 aao
 aao
@@ -117309,7 +117252,7 @@ aae
 aaa
 "}
 (232,1,1) = {"
-wiN
+aag
 aao
 aao
 aao
@@ -117566,7 +117509,7 @@ aae
 aaa
 "}
 (233,1,1) = {"
-xwV
+aag
 aas
 aas
 aas
@@ -117823,7 +117766,7 @@ aae
 aaa
 "}
 (234,1,1) = {"
-xwV
+aag
 acA
 aaz
 aaz
@@ -118080,7 +118023,7 @@ aae
 aaa
 "}
 (235,1,1) = {"
-gvL
+aag
 aao
 aao
 aao
@@ -118337,7 +118280,7 @@ aae
 aaa
 "}
 (236,1,1) = {"
-lew
+aag
 aas
 aas
 aas
@@ -118594,7 +118537,7 @@ aae
 aaa
 "}
 (237,1,1) = {"
-irY
+aag
 aao
 aao
 aao

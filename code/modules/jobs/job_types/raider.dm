@@ -273,7 +273,6 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 	/datum/outfit/loadout/raider_ncr,
 	/datum/outfit/loadout/raider_legion,
 	/datum/outfit/loadout/raider_bos,
-	/datum/outfit/loadout/raider_enclave,
 	/datum/outfit/loadout/raider_highway,
 	)
 
@@ -319,20 +318,6 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 		/obj/item/gun/ballistic/automatic/smg/smg10mm = 1,
 		/obj/item/ammo_box/magazine/m10mm_adv/ext = 3,
 		/obj/item/reagent_containers/hypospray/medipen/stimpak/imitation = 2,
-		)
-
-/datum/outfit/loadout/raider_enclave
-	name = "Enclave Remnant"
-	suit = /obj/item/clothing/suit/armor/f13/combat/mk2/remnant
-	head = /obj/item/clothing/head/helmet/f13/combat/mk2/remnant
-	id = /obj/item/card/id/rusted/brokenholodog/enclave
-	backpack_contents = list(
-		/obj/item/clothing/under/f13/exile/enclave = 1,
-		/obj/item/clothing/mask/gas/enclave = 1,
-		/obj/item/gun/energy/laser/plasma/pistol/remnant=1,
-		/obj/item/stock_parts/cell/ammo/ec = 2,
-		/obj/item/book/granter/crafting_recipe/blueprint/plasmapistol_rem = 1,
-		/obj/item/grenade/f13/plasma/remnant = 2,
 		)
 
 /datum/outfit/loadout/raider_bos

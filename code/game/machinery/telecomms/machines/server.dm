@@ -117,11 +117,6 @@
 	freq_listening = list(FREQ_BOS)
 	autolinkers = list("bos")
 
-/obj/machinery/telecomms/server/presets/enclave
-	id = "Enclave Server"
-	freq_listening = list(FREQ_ENCLAVE)
-	autolinkers = list("enclave")
-
 /obj/machinery/telecomms/server/presets/town
 	id = "Town Server"
 	freq_listening = list(FREQ_TOWN)

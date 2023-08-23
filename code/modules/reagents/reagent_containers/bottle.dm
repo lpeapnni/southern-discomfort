@@ -457,7 +457,7 @@
 //Curling 13 vaccine
 /obj/item/reagent_containers/glass/bottle/curling_vaccine
 	name = "Curling-13 vaccine bottle"
-	desc = "A vial with all reagents needed to prevent Curling-13 infection, intended for use by Enclave personnel."
+	desc = "A vial with all reagents needed to prevent Curling-13 infection."
 	list_reagents = list(
 					/datum/reagent/medicine/mutadone = 10,
 					/datum/reagent/medicine/haloperidol = 10,

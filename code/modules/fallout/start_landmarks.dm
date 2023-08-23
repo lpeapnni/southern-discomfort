@@ -340,47 +340,6 @@
 	name = "Detective"
 	icon_state = "Detective"
 
-// Enclave
-/obj/effect/landmark/start/f13/usspy
-	name = "Enclave Private"
-	icon_state = "uspvt"
-
-/obj/effect/landmark/start/f13/uslt
-	name = "Enclave Lieutenant"
-	icon_state = "uslt"
-
-/obj/effect/landmark/start/f13/ussgt
-	name = "Enclave Sergeant"
-	icon_state = "ussgt"
-
-/obj/effect/landmark/start/f13/usis
-	name = "Enclave Internal Security"
-	icon_state = "ussgt"
-
-/obj/effect/landmark/start/f13/usspecialist
-	name = "Enclave Specialist"
-	icon_state = "usoffduty"
-
-/obj/effect/landmark/start/f13/usscientist
-	name = "Enclave Scientist"
-	icon_state = "usscientist"
-
-/obj/effect/landmark/start/f13/usgysgt
-	name = "Enclave Platoon Sergeant"
-	icon_state = "usgunnery"
-
-/obj/effect/landmark/start/f13/uslightduty
-	name = "Enclave Bunker Duty"
-	icon_state = "usoffduty"
-
-/obj/effect/landmark/start/f13/enclave_synthetic
-	name = "Synthetic"
-	icon_state = "Cyborg"
-
-/obj/effect/landmark/start/f13/uspilot
-	name = "Enclave Pilot Officer"
-	icon_state = "uslt"
-
 //Tribal
 
 /obj/effect/landmark/start/f13/tribal_hunter

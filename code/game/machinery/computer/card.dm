@@ -218,13 +218,6 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_legion_access_desc(A), " ", "&nbsp")]</font></a> "
 				else
 					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_legion_access_desc(A), " ", "&nbsp")]</a> "
-		else if(istype(src, /obj/machinery/computer/card/enclave))
-			accesses += "<h5>Enclave:</h5>"
-			for(var/A in get_all_enclave_access())
-				if(A in inserted_modify_id.access)
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=0'><font color=\"6bc473\">[replacetext(get_enclave_access_desc(A), " ", "&nbsp")]</font></a> "
-				else
-					accesses += "<a href='?src=[REF(src)];choice=access;access_target=[A];allowed=1'>[replacetext(get_enclave_access_desc(A), " ", "&nbsp")]</a> "
 		else if(istype(src, /obj/machinery/computer/card/bos))
 			accesses += "<h5>Brotherhood of Steel:</h5>"
 			for(var/A in get_all_bos_access())
@@ -353,8 +346,6 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 						access_types = get_all_ncr_access()
 					else if(istype(src, /obj/machinery/computer/card/legion))
 						access_types = get_all_legion_access()
-					else if(istype(src, /obj/machinery/computer/card/enclave))
-						access_types = get_all_enclave_access()
 					else if(istype(src, /obj/machinery/computer/card/bos))
 						access_types = get_all_bos_access()
 					else
@@ -529,25 +520,6 @@ GLOBAL_VAR_INIT(time_last_changed_position, 0)
 		"Legion Veteran Decanus",
 		"Legion Orator",
 		"Legion Veteran Decanus",
-		)
-
-/obj/machinery/computer/card/enclave
-	name = "\improper Enclave identification console"
-	circuit = /obj/item/circuitboard/computer/card/enclave
-	job_list = list(
-		"Enclave Sergeant",
-		"Enclave Specialist",
-		"Enclave Scientist",
-		"Enclave Private",
-		"Enclave Bunker Duty",
-		"Enclave Pilot Officer",
-		"Enclave Internal Security",
-		"American Citizen",
-		)
-	job_req = list(
-		"Enclave Lieutenant",
-		"Enclave Platoon Sergeant",
-		"Enclave Internal Security",
 		)
 
 /obj/machinery/computer/card/bos

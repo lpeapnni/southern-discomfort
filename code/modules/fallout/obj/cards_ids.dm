@@ -8,23 +8,6 @@
 	assignment = "ID tags"
 	uses_overlays = FALSE
 
-/obj/item/card/id/dogtag/enclave
-	desc = "An advanced holographic dogtag, that shows the duty of a BoS member. This one seems a bit off somewhow..."
-
-/obj/item/card/id/dogtag/enclave/recruit
-	access = list(ACCESS_ENCLAVE)
-
-/obj/item/card/id/dogtag/enclave/recruit/attack_self(mob/user)
-	if(isliving(user))
-		var/mob/living/living_user = user
-		if(alert(user, "Action", "Agent ID", "Show", "Forge") == "Forge")
-			registered_name = living_user.real_name
-			assignment = "Enclave Recruit"
-			update_label()
-			to_chat(user, "<span class='notice'>You successfully update your holotag.</span>")
-			return
-	..()
-
 /obj/item/card/id/selfassign/attack_self(mob/user)
 	if(isliving(user))
 		var/mob/living/living_user = user
@@ -104,12 +87,6 @@
 	name = "Legion citizenship permit"
 	desc = "A permit identifying the holder as a citizen of Caesar's Legion."
 	assignment = "Legion Citizen"
-	access = list()
-
-/obj/item/card/id/dogtag/town/enclave
-	name = "American citizenship permit"
-	desc = "A permit identifying the holder as a citizen of United States of America."
-	assignment = "American Citizen"
 	access = list()
 
 /obj/item/card/id/dogtag/town/mafia
@@ -457,30 +434,3 @@ end of
 	lefthand_file = 'icons/mob/inhands/equipment/idcards_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/idcards_righthand.dmi'
 	uses_overlays = FALSE
-
-//ENCLAVE ID
-
-/obj/item/card/id/dogtag/enclave/officer
-	name = "US officer dogtags"
-	desc = "Worn by Enclave officers."
-	icon_state = "enclaveofficer"
-	item_state = "card-id_leg"
-	assignment = "US dogtags"
-	access = list(ACCESS_ENCLAVE, ACCESS_ENCLAVE_COMMAND)
-
-/obj/item/card/id/dogtag/enclave/trooper
-	name = "US dogtags"
-	desc = "Worn by Enclave NCOs."
-	icon_state = "enclavetrooper"
-	item_state = "card-id_leg"
-	assignment = "US dogtags"
-	access = list(ACCESS_ENCLAVE)
-
-/obj/item/card/id/dogtag/enclave/noncombatant
-	name = "US identity card"
-	desc = "Issued to Enclave Non-Combat Personnel with a photograph and fingerprints."
-	icon_state = "enclavenoncombat"
-	item_state = "card-id_leg"
-	assignment = "US dogtags"
-	access = list(ACCESS_ENCLAVE)
-

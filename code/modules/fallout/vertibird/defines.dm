@@ -1,4 +1,0 @@
-GLOBAL_LIST_EMPTY(vertibirdLandZone)
-GLOBAL_LIST_EMPTY(vertibird_console)
-GLOBAL_VAR(vertibirdEnterZone)
-GLOBAL_VAR(vertibird)

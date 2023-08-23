@@ -67,10 +67,6 @@
 	name = "Legion ID Console (Computer Board)"
 	build_path = /obj/machinery/computer/card/legion
 
-/obj/item/circuitboard/computer/card/enclave
-	name = "Enclave ID Console (Computer Board)"
-	build_path = /obj/machinery/computer/card/enclave
-
 /obj/item/circuitboard/computer/card/bos
 	name = "Brotherhood of Steel ID Console (Computer Board)"
 	build_path = /obj/machinery/computer/card/bos
@@ -203,10 +199,6 @@
 /obj/item/circuitboard/computer/rdconsole/followers
 	name = "R&D Console (Computer Board)"
 	build_path = /obj/machinery/computer/rdconsole/core/followers
-
-/obj/item/circuitboard/computer/rdconsole/enclave
-	name = "R&D Console (Computer Board)"
-	build_path = /obj/machinery/computer/rdconsole/core/enclave
 
 /obj/item/circuitboard/computer/rdconsole/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/screwdriver))
@@ -413,10 +405,6 @@
 /obj/item/circuitboard/computer/shuttle/docker
 	name = "Shuttle Navigation Computer (Computer Board)"
 	build_path = /obj/machinery/computer/camera_advanced/shuttle_docker/custom
-
-/obj/item/circuitboard/computer/enclave_control
-	name = "Enclave Elevator Control (Computer board)"
-	build_path = /obj/machinery/computer/shuttle/enclavefortelevator
 
 /obj/item/circuitboard/computer/bos_control
 	name = "BoS Elevator Control (Computer board)"

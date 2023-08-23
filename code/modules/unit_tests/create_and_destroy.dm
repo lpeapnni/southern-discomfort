@@ -65,8 +65,6 @@ GLOBAL_VAR_INIT(running_create_and_destroy, FALSE)
 		/obj/structure/checkoutmachine,
 		//spawns a bunch of swarmers that wander off and damage stuff that gets spawned
 		/mob/living/simple_animal/hostile/megafauna/swarmer_swarm_beacon,
-		//only one can exist, which is really dumb
-		/obj/vertibird,
 	)
 	//needs to be mapped in with an id
 	ignore += typesof(/obj/effect/spawner/structure/window/reinforced/tinted/electrochromatic)

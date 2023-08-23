@@ -218,7 +218,7 @@
 /obj/machinery/vr_sleeper/den/new_player(mob/M, location, datum/outfit/outfit, transfer = TRUE)
 	. = ..()
 	// Hacked VR Avatar has Faction Attribute so den can fuck with BoS simulations without getting merked
-	vr_mob.faction = list("hostile", "enclave", "silicon", "turret", "supermutant", "wastebot") 
+	vr_mob.faction = list("hostile", "silicon", "turret", "supermutant", "wastebot") 
 
 /obj/effect/landmark/vr_spawn //places you can spawn in VR, auto selected by the vr_sleeper during get_vr_spawnpoint()
 	var/vr_category = "default" //So we can have specific sleepers, eg: "Basketball VR Sleeper", etc.

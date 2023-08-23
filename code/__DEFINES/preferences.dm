@@ -76,7 +76,6 @@
 #define EXP_TYPE_BIGHORN		"Bighorn"
 #define EXP_TYPE_LEGION			"Legion"
 #define EXP_TYPE_WASTELAND		"Wasteland"
-#define EXP_TYPE_ENCLAVE		"Enclave"
 #define EXP_TYPE_NCRCOMMAND     "NCRCommand"
 #define EXP_TYPE_RANGER         "Ranger"
 #define EXP_TYPE_SCRIBE         "Scribe"

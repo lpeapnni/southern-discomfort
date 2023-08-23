@@ -126,9 +126,6 @@
 	},
 /area/f13/caves)
 "aau" = (
-/obj/effect/landmark/vertibird{
-	name = "Rock Springs NE"
-	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/wasteland/rocksprings)
 "aav" = (
@@ -2132,9 +2129,6 @@
 	},
 /area/f13/building)
 "bZN" = (
-/obj/effect/landmark/vertibird{
-	name = "Rock Springs SE"
-	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/wasteland/rocksprings)
 "bZU" = (
@@ -24147,9 +24141,6 @@
 	},
 /area/f13/building)
 "xOV" = (
-/obj/effect/landmark/vertibird{
-	name = "South of Legion"
-	},
 /turf/open/indestructible/ground/outside/desert/harsh,
 /area/f13/wasteland/rocksprings)
 "xPN" = (

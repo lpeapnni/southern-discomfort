@@ -1181,7 +1181,3 @@ Nothing else in the console has ID requirements.
 /obj/machinery/computer/rdconsole/core/followers
 	research_id = "FOLLOWERS"
 	circuit = /obj/item/circuitboard/computer/rdconsole/followers
-
-/obj/machinery/computer/rdconsole/core/enclave
-	research_id = "ENCLAVE"
-	circuit = /obj/item/circuitboard/computer/rdconsole/enclave

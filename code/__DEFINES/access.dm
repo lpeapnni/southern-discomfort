@@ -101,7 +101,6 @@ also be like that but I can't be arsed to go back and change them all*/
 #define ACCESS_TRIBE		131	//general tribe access
 #define ACCESS_NCROFFDUTY	132 //general NCR access
 #define ACCESS_CLINIC		133 //Oasis clinic access
-#define ACCESS_ENCLAVE 		134 //enclave minibunker
 #define ACCESS_LEGION_SLAVE	135	//general legion access
 #define ACCESS_TOWN			136 //general town access
 #define ACCESS_TOWN_BAR		137 //town Bar access
@@ -137,4 +136,3 @@ also be like that but I can't be arsed to go back and change them all*/
 #define ACCESS_NCR_COMMAND 253
 #define ACCESS_LEGION_COMMAND 254
 #define ACCESS_BROTHERHOOD_COMMAND 255
-#define ACCESS_ENCLAVE_COMMAND 256 //Enclave Science Wing and Radio-Terminal
