@@ -17360,12 +17360,6 @@
 /area/f13/building)
 "rob" = (
 /obj/structure/closet/crate/wooden,
-/obj/item/radio/headset/headset_legion,
-/obj/item/radio/headset/headset_legion,
-/obj/item/radio/headset/headset_legion,
-/obj/item/radio/headset/headset_legion,
-/obj/item/radio/headset/headset_legion,
-/obj/item/radio/headset/headset_legion,
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 1;
 	light_color = "#f4e3b0";
