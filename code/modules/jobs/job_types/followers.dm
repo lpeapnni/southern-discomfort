@@ -14,7 +14,6 @@
 	jobtype =	/datum/job/followers/
 	shoes =		/obj/item/clothing/shoes/sneakers/black
 	id =		null
-	ears =		/obj/item/radio/headset/headset_followers
 	uniform =	/datum/outfit/job/followers/f13followers
 
 /datum/outfit/job/followers/f13followers
