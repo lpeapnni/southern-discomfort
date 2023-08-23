@@ -183,10 +183,6 @@
 /obj/machinery/rnd/server/followers
 	research_id = "FOLLOWERS"
 
-/obj/machinery/rnd/server/enclave
-	research_id = "ENCLAVE"
-	base_mining_income = 17
-
 /* so we can link lathes and such to this server's techweb */
 /obj/machinery/rnd/server/multitool_act(mob/living/user, obj/item/I)
 	if(istype(I, /obj/item/multitool))

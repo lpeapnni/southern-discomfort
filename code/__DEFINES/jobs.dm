@@ -5,7 +5,6 @@
 #define FACTION_LEGION "Legion"
 #define FACTION_BROTHERHOOD "BOS"
 #define FACTION_BIGHORN "Bighorn"
-#define FACTION_ENCLAVE "Enclave"
 #define FACTION_WASTELAND "Wastelander"
 #define FACTION_RAIDERS "Raiders"
 #define FACTION_FOLLOWERS "Followers"
@@ -153,8 +152,6 @@
 #define F13TRIBAL		(1<<0)
 #define F13TRIBAL_GATHERER	(1<<1)
 #define F13TRIBAL_SHAMAN	(1<<2)
-
-#define ENCLAVE			(1<<11)
 
 #define F13USLT			(1<<0)
 #define F13USGYSGT		(1<<1)

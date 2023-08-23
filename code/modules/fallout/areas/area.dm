@@ -662,18 +662,6 @@
 	name = "Brotherhood of Steel Mining"//Brother Hood
 	icon_state = "brotherhoodmining"
 
-/area/f13/enclave
-	name = "Enclave Bunker"
-	icon_state = "enclave"
-//	ambience_area =  list('sound/f13ambience/enclave_vault.ogg')
-//	ambientmusic = list('sound/f13music/fo2_vats.ogg','sound/f13music/fo2_outpost.ogg','sound/misc/null.ogg')
-	ambientsounds = list('sound/f13ambience/ambigen_10.ogg','sound/f13ambience/ambigen_11.ogg','sound/f13ambience/ambigen_12.ogg', \
-	'sound/f13ambience/ambigen_13.ogg','sound/f13ambience/ambigen_14.ogg','sound/ambience/signal.ogg','sound/f13ambience/enclave_vault.ogg')
-	blob_allowed = 0
-	environment = 6
-	grow_chance = 5
-	requires_power = TRUE
-
 /area/f13/ahs
 	name = "Adepts of Hubology Studies"
 	icon_state = "ahs"

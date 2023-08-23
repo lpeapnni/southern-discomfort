@@ -68,9 +68,6 @@
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "aai" = (
-/obj/effect/landmark/vertibird{
-	name = "Mass Fusion Landing Pad"
-	},
 /turf/open/indestructible/ground/outside/roof,
 /area/f13/wasteland)
 "aaj" = (

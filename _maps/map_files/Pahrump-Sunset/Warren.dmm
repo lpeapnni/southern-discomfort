@@ -92,9 +92,6 @@
 /turf/open/floor/wood/wood_common,
 /area/f13/city)
 "aai" = (
-/obj/effect/landmark/vertibird{
-	name = "Warren AFB Exterior"
-	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain0"
 	},
@@ -1691,9 +1688,6 @@
 	},
 /area/f13/ncr)
 "bzE" = (
-/obj/effect/landmark/vertibird{
-	name = "Warren North"
-	},
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain0"
 	},

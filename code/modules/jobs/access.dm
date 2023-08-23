@@ -160,7 +160,7 @@
 		if(1) //station general
 			return list(ACCESS_KITCHEN,ACCESS_BAR, ACCESS_HYDROPONICS, ACCESS_JANITOR, ACCESS_CHAPEL_OFFICE, ACCESS_CREMATORIUM, ACCESS_LIBRARY, ACCESS_THEATRE, ACCESS_LAWYER, ACCESS_NCROFFDUTY, ACCESS_LEGION_SLAVE, ACCESS_TOWN, ACCESS_TOWN_BAR)
 		if(2) //security
-			return list(ACCESS_SEC_DOORS, ACCESS_WEAPONS, ACCESS_SECURITY, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_FORENSICS_LOCKERS, ACCESS_COURT, ACCESS_HOS, ACCESS_LEGION, ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_BOS, ACCESS_ENCLAVE)
+			return list(ACCESS_SEC_DOORS, ACCESS_WEAPONS, ACCESS_SECURITY, ACCESS_BRIG, ACCESS_ARMORY, ACCESS_FORENSICS_LOCKERS, ACCESS_COURT, ACCESS_HOS, ACCESS_LEGION, ACCESS_NCR, ACCESS_NCR_ARMORY, ACCESS_BOS)
 		if(3) //medbay
 			return list(ACCESS_MEDICAL, ACCESS_GENETICS, ACCESS_CLONING, ACCESS_MORGUE, ACCESS_CHEMISTRY, ACCESS_VIROLOGY, ACCESS_SURGERY, ACCESS_CMO, ACCESS_FOLLOWER)
 		if(4) //research
@@ -343,8 +343,6 @@
 			return "NCR Civilian"
 		if(ACCESS_FOLLOWER)
 			return "Follower Access"
-		if(ACCESS_ENCLAVE)
-			return "Enclave Access"
 		if(ACCESS_TOWN)
 			return "Town Citizen"
 		if(ACCESS_TOWN_BAR)
@@ -399,17 +397,6 @@
 		if(ACCESS_LEGION_SLAVE)
 			return "Legion Slave"
 
-/* Enclave */
-/proc/get_all_enclave_access()
-	return list(ACCESS_ENCLAVE, ACCESS_ENCLAVE_COMMAND)
-
-/proc/get_enclave_access_desc(A)
-	switch(A)
-		if(ACCESS_ENCLAVE)
-			return "Enclave Access"
-		if(ACCESS_ENCLAVE_COMMAND)
-			return "Enclave Command"
-
 /* Brotherhood of Steel */
 /proc/get_all_bos_access()
 	return list(
@@ -445,7 +432,6 @@
 	return list("Wastelander", "Raider", "Outsider", "Raider Captain", "Tribal", "Tribal Hunter", "Tribal Gatherer", "Tribal Shaman",
 				"Mayor", "Sheriff", "Deputy", "Banker", "Barkeep", "Shopkeeper", "Citizen", "Preacher", "Secretary",
 				"Baron", "Castellan","Keeper", "Knight-Commander", "Paladin Marshal", "Paladin", "Librarian", "Scribe", "Knight-Captain", "Knight", "Initiate", "BoS Off-Duty", "Inquisitorial Acolyte",
-				"Enclave Internal Security", "Enclave Lieutenant", "Enclave Platoon Sergeant", "Enclave Sergeant", "Enclave Specialist", ,"Enclave Private", "Enclave Scientist", "Enclave Pilot Officer", "Enclave Bunker Duty",
 				"Followers Administrator", "Followers Doctor", "Followers Volunteer", "Followers Guard", "Followers Robot",
 				"Khan Senior Enforcer", "Khan Enforcer", "Khan Chemist", "Khan Smith", "Khan Courtesan",
 				"NCR Captain", "NCR Lieutenant", "NCR Logistics Officer", "NCR Representative", "NCR Medical Officer", "NCR Heavy Trooper", "NCR Sergeant", "NCR Senior Enlisted Advisor",

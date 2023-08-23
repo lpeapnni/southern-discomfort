@@ -63,8 +63,6 @@ GLOBAL_LIST_INIT(command_positions, list(
 	"Sierra Representative",
 	"Mayor",
 
-	"Enclave Lieutenant",
-
 	"Followers Administrator",
 
 	"Khan Senior Enforcer",
@@ -113,17 +111,6 @@ GLOBAL_LIST_INIT(faction_whitelist_positions, list(
 "Shopkeeper",
 "Sierra Representative",
 "Mercenary",
-
-"Enclave Lieutenant",
-"Enclave Gunnery Sergeant",
-"Enclave Sergeant",
-"Enclave Internal Security",
-"Enclave Specialist",
-"Enclave Scientist",
-"Enclave Private",
-"Enclave Pilot Officer",
-"Enclave Bunker Duty",
-"Synthetic",
 
 "Noyan",
 "Steward",
@@ -265,19 +252,6 @@ GLOBAL_LIST_INIT(khan_positions, list(
 	"Khan Courtesan",
 ))
 
-GLOBAL_LIST_INIT(enclave_positions, list(
-	"Enclave Lieutenant",
-	"Enclave Platoon Sergeant",
-	"Enclave Sergeant",
-	"Enclave Internal Security",
-	"Enclave Specialist",
-	"Enclave Scientist",
-	"Enclave Pilot Officer",
-	"Enclave Private",
-	"Enclave Bunker Duty",
-	"Synthetic",
-))
-
 GLOBAL_LIST_INIT(security_positions, list(
 	"Vault-tec Security",
 	"Officer",
@@ -304,7 +278,6 @@ GLOBAL_LIST_INIT(position_categories, list(
 	EXP_TYPE_WASTELAND = list("jobs" = wasteland_positions, "color" = "#5a5a5a"),
 	EXP_TYPE_TRIBAL = list("jobs" = tribal_positions, "color" = "#825b73"),
 	EXP_TYPE_OUTLAW = list("jobs" = outlaw_positions, "color" = "#db3529"),
-	EXP_TYPE_ENCLAVE = list("jobs" = enclave_positions, "color" = "#434944"),
 	EXP_TYPE_KHAN = list("jobs" = khan_positions, "color" = "#006666"),
 	EXP_TYPE_BIGHORN = list("jobs" = bighorn_positions, "color" = "#d7b088"),
 ))
@@ -320,7 +293,7 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_SILICON = list("titles" = list("AI","Cyborg")),
 	EXP_TYPE_SERVICE = list("titles" = civilian_positions),
 
-	EXP_TYPE_FALLOUT = list("titles" = brotherhood_positions | bighorn_positions | legion_positions | khan_positions | ncr_positions | vault_positions | wasteland_positions | tribal_positions | outlaw_positions | followers_positions | enclave_positions),
+	EXP_TYPE_FALLOUT = list("titles" = brotherhood_positions | bighorn_positions | legion_positions | khan_positions | ncr_positions | vault_positions | wasteland_positions | tribal_positions | outlaw_positions | followers_positions),
 
 	EXP_TYPE_OUTLAW = list("titles" = outlaw_positions),
 	EXP_TYPE_TRIBAL = list("titles" = tribal_positions),
@@ -332,7 +305,6 @@ GLOBAL_LIST_INIT(exp_jobsmap, list(
 	EXP_TYPE_WASTELAND = list("titles" = wasteland_positions),
 	EXP_TYPE_KHAN = list("titles" = khan_positions),
 	EXP_TYPE_FOLLOWERS = list("titles" = followers_positions),
-	EXP_TYPE_ENCLAVE = list("titles" = enclave_positions),
 	EXP_TYPE_RANGER = list("titles" = list("NCR Veteran Ranger","NCR Ranger")),
 	EXP_TYPE_SCRIBE = list("titles" = list("Scribe")),
 	EXP_TYPE_DECANUS = list("titles" = list("Legion Decanus")),

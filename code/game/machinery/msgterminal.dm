@@ -115,8 +115,6 @@ GLOBAL_LIST_EMPTY(allTerminals)
 				dat += "<br>Cohort War Council of Southwestern Arizona"
 			if(src.terminalid == "ncr")
 				dat += "<br>Arizona Command Camp Alexander"
-			if(src.terminalid == "enclave")
-				dat += "<br>Rocky Mountain Arsenal"
 			dat += "</td>"
 			dat += "<td width='45%'>"
 			dat += "<br><A href='?src=[REF(src)];setScreen=11'>Send Message to Command</A><br>"
@@ -184,8 +182,6 @@ GLOBAL_LIST_EMPTY(allTerminals)
 				dat += "<b>Cohort War Council of Southwestern Arizona</b> <br><br>"
 			if(src.terminalid == "brotherhood")
 				dat += "<b>Circle of Steel</b> <br><br>"
-			if(src.terminalid == "enclave")
-				dat += "<br>Rocky Mountain Arsenal"
 			dat += "<a href='?src=[REF(src)];setScreen=11'>Send Message to Command</a> <br><br>"
 		if(11)
 			var/message = input(usr,"Send a message to command staff. Ensure it makes sense IC.","") as message|null
@@ -450,12 +446,6 @@ GLOBAL_LIST_EMPTY(allTerminals)
 	terminalid = "command"
 	terminal = "COMMAND"
 	terminalType = 3
-
-/obj/machinery/msgterminal/enclave
-	terminalid = "enclave"
-	terminal = "Enclave Terminal"
-	terminalType = 2
-
 
 // so admins can easily jump-to-area
 /area/f13/commandconsole

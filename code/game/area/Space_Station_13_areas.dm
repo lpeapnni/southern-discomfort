@@ -1696,11 +1696,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	requires_power = TRUE
 	ambientsounds = ENGINEERING
 
-/area/f13/underground/enclave_base
-	name = "Enclave Base"
-	icon_state = "enclave_base"
-	ambientsounds = list('sound/f13ambience/enclave_vault.ogg')
-
 /area/f13/den
 	name = "Den"
 	icon_state = "den"
@@ -1725,10 +1720,6 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 /area/shuttle/vault_elevator
 	name = "Vault Elevator"
-
-
-/area/shuttle/enclavefort_elevator
-	name = "Enclave Fort Elevator"
 
 
 /area/shuttle/bos_elevator

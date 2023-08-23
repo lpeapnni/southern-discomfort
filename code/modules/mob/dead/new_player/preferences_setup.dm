@@ -35,9 +35,6 @@
 		if(istype(previewJob,/datum/job/cyborg))
 			parent.show_character_previews(image('icons/mob/robots.dmi', icon_state = "robot", dir = SOUTH))
 			return
-		if(istype(previewJob,/datum/job/enclave/encborg))
-			parent.show_character_previews(image('icons/mob/robots.dmi', icon_state = "robot", dir = SOUTH))
-			return
 		if(istype(previewJob,/datum/job/followers/f13folborg))
 			parent.show_character_previews(image('icons/mob/robots.dmi', icon_state = "robot", dir = SOUTH))
 			return

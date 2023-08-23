@@ -23,7 +23,7 @@
 	healable = 0
 	mob_biotypes = MOB_ROBOTIC|MOB_INORGANIC
 	blood_volume = 0
-	faction = list("hostile", "enclave", "wastebot", "ghoul", "cazador", "supermutant", "bighorner")
+	faction = list("hostile", "wastebot", "ghoul", "cazador", "supermutant", "bighorner")
 	harm_intent_damage = 8
 	melee_damage_lower = 2
 	melee_damage_upper = 3
@@ -104,7 +104,7 @@
 	speak_chance = 8
 	gender = NEUTER
 	mob_biotypes = MOB_ROBOTIC
-	faction = list("hostile", "enclave", "wastebot", "ghoul", "cazador", "supermutant", "bighorner")
+	faction = list("hostile", "wastebot", "ghoul", "cazador", "supermutant", "bighorner")
 	speak = list()
 	speak_emote = list("states")
 	emote_hear = list()

@@ -242,7 +242,7 @@
 	desc = "A flag worn and weathered from the Casper's Snow."
 	icon_state = "enclaveflag"
 	item_state = "enclaveflag"
-	faction = FACTION_ENCLAVE
+	faction = "Enclave"
 	anchored = 1
 
 /obj/item/flag/enclave/alt
@@ -307,13 +307,6 @@
 						icon_state = "khanflag"
 						item_state = "khanflag"
 						faction = "Great Khans"
-						anchored = 1
-					if(FACTION_ENCLAVE)
-						name = "Enclave flag"
-						desc = "A flag worn and weathered from the Casper's Snow."
-						icon_state = "enclaveflag"
-						item_state = "enclaveflag"
-						faction = FACTION_ENCLAVE
 						anchored = 1
 				update_icon()
 	else
