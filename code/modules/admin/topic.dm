@@ -2559,6 +2559,33 @@
 		usr.client.invisimin()
 
 //fortuna addition end
+
+
+// heremus addition start - faction objective shit
+	else if(href_list["objectiveapprove"])
+		if(!check_rights(R_ADMIN))
+			return
+
+		var/mob/M = locate(href_list["objectiveapprove"])
+		var/datum/antagonist/faction/antag_datum = locate(href_list["objectiveteam"])
+		to_chat(M, "<span class='green'>Your new objective for [antag_datum.faction_name] has been approved!</span>")
+		antag_datum.my_faction.set_additional_objective(href_list["objectivemessage"])
+
+		log_admin("[key_name(usr)] has accepted [key_name(M)]'s objective for [antag_datum.faction_name]")
+		message_admins("[key_name_admin(usr)] has accepted [key_name_admin(M)]'s objective for [antag_datum.faction_name]")
+
+	else if(href_list["objectivedeny"])
+		if(!check_rights(R_ADMIN))
+			return
+
+		var/mob/M = locate(href_list["objectivedeny"])
+		var/datum/antagonist/faction/antag_datum = locate(href_list["objectiveteam"])
+		to_chat(M, "<span class='red'>Your new objective for [antag_datum.faction_name] has been denied!</span>")
+
+		log_admin("[key_name(usr)] has denied [key_name(M)]'s objective for [antag_datum.faction_name]")
+		message_admins("[key_name_admin(usr)] has denied [key_name_admin(M)]'s objective for [antag_datum.faction_name]")
+// heremus addition end
+
 	else if(href_list["create_object"])
 		if(!check_rights(R_SPAWN))
 			return
