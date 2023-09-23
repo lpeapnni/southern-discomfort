@@ -74,7 +74,7 @@
 
 	return "<div class='panel redborder'>[report.Join("<br>")]</div>"
 
-/datum/team/faction/proc/set_additional_objective(var/new_objective)
+/datum/team/faction/proc/set_additional_objective(new_objective)
 	additional_objective = new_objective
 	for(var/datum/mind/faction_member in members)
 		to_chat(faction_member, "<span class='notice'>A new objective has been assigned: [additional_objective]</span>")

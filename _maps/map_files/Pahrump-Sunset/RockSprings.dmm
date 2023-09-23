@@ -17614,7 +17614,6 @@
 "rzN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/old,
-/obj/item/bedsheet/enclave,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
 "rzS" = (
