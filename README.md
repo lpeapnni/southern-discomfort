@@ -1,13 +1,13 @@
-## Fallout: HEREMUS
+## Southern Discomfort
 Based and maintained from Sunset Wasteland by way of Citadel Station, Desert Rose, Fortuna and The Wasteland.
 
-**Fallout: HEREMUS Information**
+**Southern Discomfort Information**
 * **Code:** <https://github.com/Draganfrukts/fallout-heremus>
-* **Wiki:** IDK.
-* **Discord:** <https://discord.gg/NdsfDc93h>
+* **Wiki:** WE DONT FUCKING HAVE ONE BIAAAAAAAAAAAAAATCH
+* **Discord:** <https://discord.gg/m5Ttxe5MUy>
 
 **Sunset Wasteland Information**
-* **Code:** <https://github.com/sunset-wasteland/sunset-wasteland>
+* **Code:** <https://github.com/lpeapnni/southern-discomfort>
 * **Wiki:** <https://sunsetwasteland.com/index.php/Main_Page>
 * **Discord:** <https://discord.gg/h5UDdCMHhm>
 
