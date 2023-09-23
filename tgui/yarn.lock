@@ -3131,10 +3131,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:^3.10.1":
-  version: 3.10.1
-  resolution: "core-js@npm:3.10.1"
-  checksum: 5329c1bb03a9fa36d259b26180d9c4ad377a37867d2753b08a53738d41adb3b1193708abfaec4976d422140abcfabdc272584fb9ed16b1406a5c02fd122b8702
+"core-js@npm:^3.32.2":
+  version: 3.32.2
+  resolution: "core-js@npm:3.32.2"
+  checksum: 75154f2dd168de0ba35f4d9fba539c881936cc443f83f6a53865cb59ba532367a485c10dad24a697f40bad2815450703200a15a59a9f933005c290b88e8fd3f7
   languageName: node
   linkType: hard
 
@@ -8346,7 +8346,7 @@ resolve@^2.0.0-next.3:
   version: 0.0.0-use.local
   resolution: "tgui-polyfill@workspace:packages/tgui-polyfill"
   dependencies:
-    core-js: ^3.10.1
+    core-js: ^3.32.2
     regenerator-runtime: ^0.13.8
     unfetch: ^4.2.0
   languageName: unknown
