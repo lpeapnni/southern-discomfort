@@ -1570,7 +1570,7 @@
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier2/Initialize(mapload) //on mapload, pick how many shit to spawn
-	lootcount = pick(2, 3)
+	lootcount = pick(1, 2)
 	. = ..()
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3
@@ -1590,7 +1590,7 @@
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier3/Initialize(mapload) //on mapload, pick how many shit to spawn
-	lootcount = pick(2, 3)
+	lootcount = pick(1, 2)
 	. = ..()
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4
@@ -1611,12 +1611,13 @@
 				)
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier4/Initialize(mapload) //on mapload, pick how many shit to spawn
-	lootcount = pick(2, 3)
+	lootcount = pick(1, 2)
 	. = ..()
 
 /obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5
 	name = "tier 5 ammo"
 	lootdoubles = TRUE
+	lootcount = 1
 
 	loot = list(
 				/obj/item/ammo_box/a50MG,
@@ -1630,10 +1631,6 @@
 				/obj/item/ammo_casing/caseless/rocket/chem = 3,
 				/obj/item/ammo_box/a40mm
 				)
-
-/obj/effect/spawner/lootdrop/f13/weapon/gun/ammo/tier5/Initialize(mapload) //on mapload, pick how many shit to spawn
-	lootcount = pick(1, 2, 3, 4)
-	. = ..()
 
 //BOMBS N GRENADES
 /obj/effect/spawner/loot/f13/bomb

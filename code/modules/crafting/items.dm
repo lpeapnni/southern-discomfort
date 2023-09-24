@@ -293,7 +293,8 @@ GLOBAL_LIST_INIT(blueprint_fluff, list(
 				/obj/item/stack/sheet/leather/ten,
 				/obj/item/stack/sheet/prewar/five,
 				/obj/item/stack/crafting/goodparts/five,
-				/obj/item/stack/ore/blackpowder/five
+				/obj/item/stack/ore/blackpowder/five,
+				/obj/item/stack/sheet/brass
 				)
 
 
