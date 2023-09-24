@@ -607,8 +607,8 @@
 /area/f13/city/bighorn)
 "acr" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/f13,
-/area/f13/wasteland)
+/turf/open/transparent/openspace,
+/area/f13/building)
 "acs" = (
 /obj/structure/campfire/stove,
 /turf/open/indestructible/ground/inside/mountain,
@@ -731,10 +731,10 @@
 	},
 /area/f13/city/bighorn)
 "acK" = (
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/wasteland)
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "acL" = (
 /obj/structure/railing/wood{
 	dir = 4
@@ -950,6 +950,10 @@
 /obj/item/toy/plush/borgplushie,
 /turf/open/floor/carpet/arcade,
 /area/f13/building/mall)
+"apM" = (
+/obj/structure/debris/v2,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "atb" = (
 /obj/structure/table/reinforced/brass,
 /obj/item/book/manual/wiki/cooking_to_serve_man,
@@ -1159,6 +1163,13 @@
 	icon_state = "darkrustysolid"
 	},
 /area/f13/building/massfusion)
+"aMO" = (
+/obj/structure/debris/v4{
+	pixel_x = 16
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "aMT" = (
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
@@ -1908,12 +1919,25 @@
 /obj/item/mop,
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/mall)
+"cwK" = (
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "cxF" = (
 /obj/effect/landmark/poster_spawner/prewar{
 	pixel_y = 32
 	},
 /turf/open/floor/f13/wood,
 /area/f13/wasteland/bighorn)
+"cxV" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/open/transparent/openspace,
+/area/f13/building)
 "cym" = (
 /turf/open/floor/plasteel/f13/vault_floor/white,
 /area/f13/building/hospital)
@@ -2262,6 +2286,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/f13/brotherhood)
+"dqy" = (
+/obj/structure/barricade/sandbags,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "dsj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/lootdrop/ammo/civilian,
@@ -2718,6 +2746,12 @@
 	dir = 10
 	},
 /area/f13/building/hospital)
+"eyU" = (
+/obj/structure/window/fulltile/house{
+	dir = 2
+	},
+/turf/closed/wall/f13/store,
+/area/f13/building)
 "eyV" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/f13/medical/rnd/mid,
@@ -2824,6 +2858,12 @@
 	smooth = 1
 	},
 /area/f13/building/mall)
+"eMX" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/transparent/openspace,
+/area/f13/building)
 "eNt" = (
 /obj/structure/rack/shelf_metal,
 /obj/item/reagent_containers/glass/bucket/plastic,
@@ -2897,6 +2937,15 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/building/mall)
+"eUH" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bighornrec"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "eZg" = (
 /obj/structure/railing{
 	dir = 6
@@ -3059,6 +3108,11 @@
 	},
 /turf/open/floor/f13/wood,
 /area/f13/city/bighorn)
+"fvZ" = (
+/mob/living/simple_animal/hostile/raider/ranged/boss,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "fxl" = (
 /obj/structure/decoration/warning{
 	desc = "A sign indicating that ahead is a secure area!";
@@ -3104,6 +3158,12 @@
 /obj/structure/junk/arcade,
 /turf/open/floor/carpet/arcade,
 /area/f13/building/mall)
+"fDC" = (
+/obj/structure/debris/v2{
+	pixel_x = -32
+	},
+/turf/closed/wall/f13/store,
+/area/f13/building)
 "fDM" = (
 /obj/structure/railing/corner,
 /turf/open/transparent/openspace{
@@ -3212,6 +3272,9 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"fTK" = (
+/turf/closed/wall/f13/store,
+/area/f13/building)
 "fUH" = (
 /obj/machinery/button/door{
 	id = "Follower_Desk_Shutters_Upper";
@@ -4222,6 +4285,14 @@
 /obj/machinery/computer/arcade,
 /turf/open/floor/carpet/arcade,
 /area/f13/building/mall)
+"icr" = (
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/obj/effect/spawner/lootdrop/trash,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "icS" = (
 /obj/machinery/hydroponics/constructable,
 /obj/structure/window/reinforced{
@@ -4328,6 +4399,17 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/massfusion)
+"irq" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bighornrec"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "irC" = (
 /obj/structure/chair/sofa/right{
 	dir = 8
@@ -4398,6 +4480,12 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/massfusion)
+"iyQ" = (
+/obj/structure/debris/v4{
+	pixel_x = 16
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "izj" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -4849,6 +4937,11 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"jzL" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "jBO" = (
 /obj/structure/window/fulltile/store,
 /turf/open/indestructible/ground/outside/roof,
@@ -5043,6 +5136,12 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/purple,
 /area/f13/building/hospital)
+"jWO" = (
+/obj/structure/debris/v4{
+	pixel_y = -16
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "jWV" = (
 /obj/structure/rack,
 /obj/item/storage/bag/plants/portaseeder,
@@ -5269,6 +5368,12 @@
 "kAV" = (
 /turf/closed/wall/f13/wood/house,
 /area/f13/village)
+"kBp" = (
+/obj/effect/spawner/lootdrop/trash,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "kBG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/button/door{
@@ -5657,6 +5762,11 @@
 "lqO" = (
 /turf/closed/wall/f13/store,
 /area/f13/building/hospital)
+"lra" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/trash,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "lsj" = (
 /obj/structure/table,
 /obj/structure/junk/arcade,
@@ -6222,6 +6332,13 @@
 	icon_state = "greenrustychess"
 	},
 /area/f13/building/massfusion)
+"mue" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bighornrec"
+	},
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "muv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -6719,6 +6836,10 @@
 	icon_state = "floorrusty"
 	},
 /area/f13/followers)
+"nyE" = (
+/mob/living/simple_animal/hostile/raider/ranged/boss,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "nAV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -6854,6 +6975,13 @@
 /obj/structure/sign/departments/medbay/alt,
 /turf/closed/wall/f13/store,
 /area/f13/building/hospital)
+"nNA" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "nNP" = (
 /obj/structure/rack/shelf_metal,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -6923,6 +7051,9 @@
 /obj/structure/railing,
 /turf/open/transparent/openspace,
 /area/f13/building/massfusion)
+"nWc" = (
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "nWo" = (
 /obj/structure/railing/corner{
 	color = "#A47449";
@@ -7017,6 +7148,12 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/mall)
+"ocv" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/open/transparent/openspace,
+/area/f13/building)
 "ocx" = (
 /turf/open/floor/plasteel/f13{
 	icon_state = "plating"
@@ -7676,6 +7813,13 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"pEF" = (
+/obj/effect/spawner/lootdrop/trash,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "pFg" = (
 /obj/machinery/computer/arcade,
 /obj/machinery/light{
@@ -8101,6 +8245,10 @@
 	icon_state = "bluedirtychess"
 	},
 /area/f13/building/mall)
+"qBa" = (
+/obj/structure/debris/v4,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "qBx" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13{
@@ -8196,6 +8344,10 @@
 "qHF" = (
 /turf/open/floor/wood/wood_common,
 /area/f13/city/bighorn)
+"qIo" = (
+/obj/structure/junk/machinery,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "qIx" = (
 /obj/structure/table/reinforced,
 /obj/item/stack/cable_coil/yellow,
@@ -8377,6 +8529,15 @@
 	},
 /turf/open/indestructible/ground/outside/ruins,
 /area/f13/building/mall)
+"qTe" = (
+/obj/structure/closet/crate{
+	icon_state = "crateopen"
+	},
+/obj/item/stack/sheet/brass/ten,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "qVF" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -8404,6 +8565,10 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"rbE" = (
+/obj/structure/railing,
+/turf/open/transparent/openspace,
+/area/f13/building)
 "rcy" = (
 /obj/machinery/light/floor{
 	flickering = 1;
@@ -8605,6 +8770,10 @@
 /obj/item/toy/plush/borgplushie/medihound,
 /turf/open/floor/carpet/arcade,
 /area/f13/building/mall)
+"rxw" = (
+/obj/machinery/brass_smeltery,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "rza" = (
 /obj/effect/decal/cleanable/robot_debris,
 /obj/effect/decal/cleanable/dirt,
@@ -8700,6 +8869,16 @@
 /obj/item/stack/rods/fifty,
 /turf/open/floor/plasteel/f13/vault_floor/dark,
 /area/f13/building/mall)
+"rGq" = (
+/obj/structure/window/fulltile/house{
+	dir = 2;
+	icon_state = "housewindowvertical"
+	},
+/obj/structure/window/fulltile/house{
+	dir = 2
+	},
+/turf/closed/wall/f13/store,
+/area/f13/building)
 "rGx" = (
 /turf/open/floor/f13{
 	dir = 8;
@@ -8756,6 +8935,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/f13/brotherhood)
+"rLA" = (
+/obj/structure/lattice/catwalk,
+/turf/open/transparent/openspace,
+/area/f13/building)
 "rLZ" = (
 /obj/effect/decal/waste,
 /turf/open/indestructible/ground/outside/ruins,
@@ -9100,6 +9283,22 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/plating,
 /area/f13/building/mall)
+"sJe" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bighornrec"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
+"sKw" = (
+/obj/structure/barricade/sandbags,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "sKU" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "000000"
@@ -9209,6 +9408,13 @@
 	icon_state = "floordirtysolid"
 	},
 /area/f13/brotherhood)
+"tab" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "taC" = (
 /obj/structure/table/reinforced,
 /obj/effect/spawner/lootdrop/f13/medical/vault/meds,
@@ -9522,6 +9728,12 @@
 	},
 /turf/open/floor/wood/wood_worn,
 /area/f13/wasteland/valley)
+"tyX" = (
+/obj/structure/table,
+/obj/effect/spawner/lootdrop/trash,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "tzH" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt{
@@ -9667,6 +9879,12 @@
 /obj/machinery/light/small/broken,
 /turf/open/floor/plasteel/f13,
 /area/f13/city/bighorn)
+"tRb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "tRs" = (
 /obj/machinery/light{
 	dir = 4;
@@ -9684,6 +9902,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/building/mall)
+"tUK" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "tVD" = (
 /obj/effect/decal/cleanable/dirt{
 	color = "#363636"
@@ -9774,6 +9996,11 @@
 	icon_state = "whitedirtysolid"
 	},
 /area/f13/building/hospital)
+"uen" = (
+/turf/open/floor/plasteel/stairs{
+	dir = 1
+	},
+/area/f13/building)
 "ueo" = (
 /turf/open/floor/carpet/arcade,
 /area/f13/building/mall)
@@ -10298,6 +10525,12 @@
 	},
 /turf/open/floor/wood/wood_common,
 /area/f13/city/bighorn)
+"viy" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/transparent/openspace,
+/area/f13/building)
 "vje" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/lattice/catwalk,
@@ -11565,6 +11798,14 @@
 	icon_state = "greenrustychess"
 	},
 /area/f13/building/massfusion)
+"yit" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "bighornrec"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/indestructible/ground/outside/roof,
+/area/f13/building)
 "yjX" = (
 /obj/structure/window/fulltile/house{
 	icon_state = "housewindowbrokenvertical"
@@ -63404,14 +63645,14 @@ abv
 abv
 abv
 abv
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
+abv
+abv
+abv
+abv
+abv
+abv
+abv
+abv
 oez
 oez
 oez
@@ -63661,14 +63902,14 @@ abv
 abv
 abv
 abv
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
+abv
+abv
+abv
+abv
+abv
+abv
+abv
+abv
 oez
 oez
 oez
@@ -63917,30 +64158,30 @@ abv
 abv
 abv
 abv
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+abv
+abv
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
 oez
 oez
 oez
@@ -64174,30 +64415,30 @@ abv
 abv
 abv
 abv
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+abv
+abv
+fTK
+lzi
+lzi
+lzi
+lzi
+uen
+rLA
+rLA
+rLA
+rLA
+rLA
+rLA
+rLA
+nWc
+nWc
+nWc
+lra
+lra
+lra
+nWc
+nWc
+fTK
 oez
 oez
 oez
@@ -64431,30 +64672,30 @@ abv
 abv
 abv
 abv
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+abv
+abv
+fTK
+lzi
+lzi
+lzi
+lzi
+eMX
+eMX
+eMX
+eMX
+eMX
+eMX
+ocv
+rLA
+tUK
+acK
+tRb
+acK
+tUK
+tUK
+tUK
+lra
+fTK
 oez
 oez
 oez
@@ -64688,30 +64929,30 @@ abv
 abv
 abv
 abv
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+abv
 oez
-oez
-oez
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+nWc
+nWc
+pEF
+tUK
+tUK
+acK
+tUK
+lra
+fTK
 oez
 oez
 oez
@@ -64945,30 +65186,30 @@ abv
 abv
 oez
 oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
 oez
 oez
-oez
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+nWc
+nWc
+acK
+tab
+acK
+tRb
+tUK
+tyX
+fTK
 oez
 oez
 oez
@@ -65202,30 +65443,30 @@ oez
 oez
 oez
 oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
 oez
 oez
-oez
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+nWc
+acK
+acK
+tab
+acK
+tUK
+cwK
+fTK
 oez
 oez
 oez
@@ -65459,30 +65700,30 @@ dtb
 dtb
 oez
 oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
 oez
 oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+nyE
+acK
+tUK
+tRb
+tRb
+tUK
+nWc
+fTK
 oez
 oez
 oez
@@ -65718,28 +65959,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+nWc
+tUK
+acK
+acK
+tab
+tUK
+nWc
+fTK
 oez
 oez
 oez
@@ -65975,28 +66216,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+rGq
+nWc
+tUK
+dqy
+sKw
+jzL
+acK
+tUK
+fTK
 oez
 oez
 oez
@@ -66232,28 +66473,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+rGq
+lra
+tUK
+nWc
+fvZ
+tRb
+acK
+tUK
+fTK
 oez
 oez
 oez
@@ -66489,28 +66730,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+rGq
+lra
+tUK
 acK
-aKa
-aKa
-aKa
-aKa
-aKa
+acK
+acK
+kBp
+nWc
+fTK
 oez
 oez
 oez
@@ -66746,28 +66987,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+qIo
 acK
-aKa
-aKa
-aKa
-aKa
-aKa
+acK
+tRb
+tUK
+tUK
+tUK
+fTK
 oez
 oez
 oez
@@ -67003,28 +67244,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+nWc
+tUK
+yit
+tRb
+nNA
+jzL
+jzL
+fTK
 oez
 oez
 oez
@@ -67260,28 +67501,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
+fTK
+lzi
+lzi
+lzi
 acr
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+rxw
+tUK
+yit
+tRb
+tab
+fvZ
+tUK
+fTK
 oez
 oez
 oez
@@ -67517,28 +67758,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+nWc
+nWc
+yit
+nWc
+irq
+tRb
+tUK
+fTK
 oez
 oez
 oez
@@ -67774,28 +68015,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+nWc
+acK
+yit
+acK
+eUH
+acK
+nWc
+fTK
 oez
 oez
 oez
@@ -68031,28 +68272,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+qTe
+acK
+mue
+acK
+irq
+nWc
+nWc
+fTK
 oez
 oez
 oez
@@ -68288,28 +68529,28 @@ dtb
 oez
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+fTK
+acK
+tUK
+mue
+acK
+sJe
+tUK
+nWc
+fTK
 oez
 oez
 oez
@@ -68545,28 +68786,28 @@ dtb
 dtb
 oez
 oez
-oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+eyU
+tUK
+tUK
+sJe
+tRb
+sJe
+acK
+tUK
+fTK
 oez
 oez
 oez
@@ -68802,28 +69043,28 @@ dtb
 dtb
 oez
 oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+eyU
+tUK
+tUK
+icr
+tUK
+eUH
+tUK
+tUK
+fTK
 oez
 oez
 oez
@@ -69059,28 +69300,28 @@ dtb
 dtb
 oez
 oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+lzi
+rbE
+rLA
+eyU
+nWc
+nWc
+tUK
+aMO
+yit
+tUK
+apM
+fTK
 oez
 oez
 oez
@@ -69316,28 +69557,28 @@ dtb
 dtb
 oez
 oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+viy
+viy
+viy
+viy
+viy
+viy
+cxV
+rLA
+fTK
+apM
+iyQ
+nWc
+nWc
+iyQ
+jWO
+jWO
+fTK
 oez
 oez
 oez
@@ -69573,28 +69814,28 @@ dtb
 dtb
 oez
 oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
+fTK
+lzi
+lzi
+lzi
+lzi
+uen
+rLA
+rLA
+rLA
+rLA
+rLA
+rLA
+rLA
+fTK
+nWc
+apM
+qBa
+iyQ
+qBa
+nWc
+nWc
+fTK
 oez
 oez
 oez
@@ -69830,28 +70071,28 @@ dtb
 dtb
 oez
 oez
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-aKa
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
-oez
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fTK
+fDC
+fDC
+fTK
 oez
 oez
 oez
