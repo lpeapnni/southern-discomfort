@@ -79,7 +79,7 @@
 	item_state = "brass"
 	attack_verb = list("punched", "jabbed", "whacked")
 	force = 17
-	custom_materials = list(/datum/material/iron = 2000)
+	custom_materials = list(/datum/material/brass = 2000) // god damn bro people harvesting this for scrap is gonna be so damn funny to me
 
 // Brass knuckles	Keywords: Damage 21, Stamina
 /obj/item/melee/unarmed/brass/lovetap
