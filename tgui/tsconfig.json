@@ -5,6 +5,7 @@
     "checkJs": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "ignoreDeprecations": "5.0",
     "isolatedModules": false,
     "jsx": "preserve",
     "lib": ["DOM", "DOM.Iterable", "ESNext", "ScriptHost"],
