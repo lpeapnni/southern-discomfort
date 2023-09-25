@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 4
+  version: 5
   cacheKey: 8
 
 "@ampproject/remapping@npm:^2.2.0":
@@ -57,7 +57,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.13.14, @babel/core@npm:^7.1.0":
+"@babel/core@npm:^7.1.0":
   version: 7.13.14
   resolution: "@babel/core@npm:7.13.14"
   dependencies:
@@ -80,7 +80,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.22.20, @babel/core@npm:^7.12.3, @babel/core@npm:^7.15.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
+"@babel/core@npm:^7.12.3, @babel/core@npm:^7.15.0, @babel/core@npm:^7.7.2, @babel/core@npm:^7.8.0":
   version: 7.22.20
   resolution: "@babel/core@npm:7.22.20"
   dependencies:
@@ -3275,20 +3275,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:4.21.11, browserslist@npm:^4.21.10, browserslist@npm:^4.21.9":
-  version: 4.21.11
-  resolution: "browserslist@npm:4.21.11"
-  dependencies:
-    caniuse-lite: ^1.0.30001538
-    electron-to-chromium: ^1.4.526
-    node-releases: ^2.0.13
-    update-browserslist-db: ^1.0.13
-  bin:
-    browserslist: cli.js
-  checksum: 89377745428d32c7bbec37055bc4b9e48aa859418ea3886b13218d825f8ea3053640f90d8652844ae855941fec0bffd2d69cf933035d6f9224b427d48d31eddf
-  languageName: node
-  linkType: hard
-
 "browserslist@npm:^4.14.5":
   version: 4.16.3
   resolution: "browserslist@npm:4.16.3"
@@ -3301,6 +3287,20 @@ __metadata:
   bin:
     browserslist: cli.js
   checksum: 8016901f6d13b9600487167068031745db4a13aaefff2fdc3db1a413e67f17ff73ce7db3f2217676e68e6a476844e5a30c82e2b22e7bfe342aaa8894a92aa146
+  languageName: node
+  linkType: hard
+
+"browserslist@npm:^4.21.10, browserslist@npm:^4.21.9":
+  version: 4.21.11
+  resolution: "browserslist@npm:4.21.11"
+  dependencies:
+    caniuse-lite: ^1.0.30001538
+    electron-to-chromium: ^1.4.526
+    node-releases: ^2.0.13
+    update-browserslist-db: ^1.0.13
+  bin:
+    browserslist: cli.js
+  checksum: 89377745428d32c7bbec37055bc4b9e48aa859418ea3886b13218d825f8ea3053640f90d8652844ae855941fec0bffd2d69cf933035d6f9224b427d48d31eddf
   languageName: node
   linkType: hard
 
@@ -4874,15 +4874,16 @@ __metadata:
   dependencies:
     node-gyp: latest
   checksum: 11e6ea6fea15e42461fc55b4b0e4a0a3c654faa567f1877dbd353f39156f69def97a69936d1746619d656c4b93de2238bf731f6085a03a50cabf287c9d024317
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.3
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=1cc4b2"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.3#~builtin<compat/fsevents>::version=2.3.3&hash=18f3a7"
   dependencies:
     node-gyp: latest
-  checksum: 2cb1a798baf223798ff25cfda76f405bca75f5b2cf84ba0d8ce73ca4e75a70c58f20c82fa4b71e7f5add733345988f9d78249a0261f89af37067637fd5c296c9
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
@@ -6315,7 +6316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-resolve@npm:27.5.1, jest-resolve@npm:^27.5.1":
+"jest-resolve@npm:^27.5.1":
   version: 27.5.1
   resolution: "jest-resolve@npm:27.5.1"
   dependencies:
@@ -8231,37 +8232,37 @@ resolve@^2.0.0-next.4:
 
 "resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.9.0#~builtin<compat/resolve>":
   version: 1.20.0
-  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=00b1ff"
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
-  checksum: bed00be983cd20a8af0e7840664f655c4b269786dbd9595c5f156cd9d8a0050e65cdbbbdafc30ee9b6245b230c78a2c8ab6447a52545b582f476c29adb188cc5
+  checksum: a0dd7d16a8e47af23afa9386df2dff10e3e0debb2c7299a42e581d9d9b04d7ad5d2c53f24f1e043f7b3c250cbdc71150063e53d0b6559683d37f790b7c8c3cd5
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.22.6
-  resolution: "resolve@patch:resolve@npm%3A1.22.6#~builtin<compat/resolve>::version=1.22.6&hash=00b1ff"
+  resolution: "resolve@patch:resolve@npm%3A1.22.6#~builtin<compat/resolve>::version=1.22.6&hash=07638b"
   dependencies:
     is-core-module: ^2.13.0
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: eb9a55cb707a95e8060b8860545a853c3c3eee37a3a59c3d96e241183b5bd750b901270a2fa8ee3dd0eb4b3f6b30b8961c86dc0d421cfc192e449acd461a660d
+  checksum: 9d3b3c67aefd12cecbe5f10ca4d1f51ea190891096497c43f301b086883b426466918c3a64f1bbf1788fabb52b579d58809614006c5d0b49186702b3b8fb746a
   languageName: node
   linkType: hard
 
 "resolve@patch:resolve@^2.0.0-next.4#~builtin<compat/resolve>":
   version: 2.0.0-next.4
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=00b1ff"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.4#~builtin<compat/resolve>::version=2.0.0-next.4&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
     supports-preserve-symlinks-flag: ^1.0.0
   bin:
     resolve: bin/resolve
-  checksum: 6813d545fa80defd71142e2b472676bf9d71d7cddd6cacb4bd8a91e952c07cc435f31833862b819961ad1067143891dce29e64873cfa844a4c69e011ae4c1ec7
+  checksum: 4bf9f4f8a458607af90518ff73c67a4bc1a38b5a23fef2bb0ccbd45e8be89820a1639b637b0ba377eb2be9eedfb1739a84cde24fe4cd670c8207d8fea922b011
   languageName: node
   linkType: hard
 
@@ -9585,11 +9586,11 @@ typescript@^4.3.5:
 
 "typescript@patch:typescript@^4.3.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=d8b4e7"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=493e53"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: dc93a8cb88f42a4b5f074798a38ddf3ba5a8e083663cad6170f4fbfbdb69fe8dfb782584cb47c1e1814f38218699d76bcb39ae83b91333f116058b685c566a4d
+  checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
   languageName: node
   linkType: hard
 
