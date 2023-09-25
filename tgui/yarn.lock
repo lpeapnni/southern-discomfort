@@ -9214,6 +9214,7 @@ resolve@^2.0.0-next.4:
   resolution: "tgui-dev-server@workspace:packages/tgui-dev-server"
   dependencies:
     axios: ^0.21.1
+    common: "workspace:*"
     glob: ^7.1.7
     source-map: ^0.7.3
     stacktrace-parser: ^0.1.10
