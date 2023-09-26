@@ -26,11 +26,6 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 	access = list(ACCESS_LEGION, ACCESS_LEGION_SLAVE)
 	minimal_access = list(ACCESS_LEGION, ACCESS_LEGION_SLAVE)
 
-/datum/job/CaesarsLegion/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
-	. = ..()
-	spawner.mind.add_antag_datum(/datum/antagonist/faction/legion)
-	add_verb(spawner,/mob/living/proc/view_faction_objective)
-
 /datum/outfit/job/CaesarsLegion
 	ears = null
 	box = null
@@ -99,10 +94,6 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13legate
 	access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND, ACCESS_LEGION_SLAVE)
 	minimal_access = list(ACCESS_LEGION, ACCESS_CHANGE_IDS, ACCESS_LEGION_COMMAND, ACCESS_LEGION_SLAVE)
-
-/datum/job/CaesarsLegion/Legionnaire/f13legate/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
-	. = ..()
-	add_verb(spawner,/mob/living/proc/add_legion_objective)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13legate/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -238,10 +229,6 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 		/datum/outfit/loadout/berserkercenturion,	// Love Tap, Berserker Martial Art
 		)
 
-/datum/job/CaesarsLegion/Legionnaire/f13centurion/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
-	. = ..()
-	add_verb(spawner,/mob/living/proc/add_legion_objective)
-
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13centurion/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
@@ -340,9 +327,6 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 		/datum/outfit/loadout/decvetspecialist, // USP, power fist, legion cape holster
 		)
 
-/datum/job/CaesarsLegion/Legionnaire/f13decanvet/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
-	. = ..()
-	add_verb(spawner,/mob/living/proc/add_legion_objective)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13decanvet/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
@@ -457,10 +441,6 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 		),
 		)
 
-/datum/job/CaesarsLegion/Legionnaire/f13decan/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
-	. = ..()
-	add_verb(spawner,/mob/living/proc/add_legion_objective)
-
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13decan/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
@@ -549,10 +529,6 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 			/datum/job/CaesarsLegion,
 		),
 		)
-
-/datum/job/CaesarsLegion/Legionnaire/f13decanrec/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
-	. = ..()
-	add_verb(spawner,/mob/living/proc/add_legion_objective)
 
 /datum/outfit/job/CaesarsLegion/Legionnaire/f13decanrec/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()

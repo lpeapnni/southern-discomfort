@@ -708,8 +708,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["ears"]				= sanitize_inlist(features["ears"], GLOB.ears_list)
 	features["frills"]				= sanitize_inlist(features["frills"], GLOB.frills_list)
 	features["spines"]				= sanitize_inlist(features["spines"], GLOB.spines_list)
-	// features["legs"]				= sanitize_inlist(features["legs"], GLOB.legs_list, "Plantigrade")
-	features["legs"]				= "Plantigrade" // digitigrade legs are disabled for now, but if someone wants to do all the spriting work be my guest to reenable this shit
+	features["legs"]				= sanitize_inlist(features["legs"], GLOB.legs_list, "Plantigrade")
 	features["deco_wings"] 			= sanitize_inlist(features["deco_wings"], GLOB.deco_wings_list, "None")
 	features["insect_fluff"]		= sanitize_inlist(features["insect_fluff"], GLOB.insect_fluffs_list)
 	features["insect_markings"] 	= sanitize_inlist(features["insect_markings"], GLOB.insect_markings_list, "None")
