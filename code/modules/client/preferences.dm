@@ -2016,13 +2016,11 @@ Records disabled until a use for them is found
 					if(new_spines)
 						features["spines"] = new_spines
 
-				/*
 				if("legs")
 					var/new_legs
 					new_legs = input(user, "Choose your character's legs:", "Character Preference") as null|anything in GLOB.legs_list
 					if(new_legs)
 						features["legs"] = new_legs
-				*/
 
 				if("insect_wings")
 					var/new_insect_wings

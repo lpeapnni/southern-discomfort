@@ -12,7 +12,7 @@
 	heatmod = 0.67
 	mutant_bodyparts = list("mcolor" = "0F0", "mcolor2" = "0F0", "mcolor3" = "0F0", "tail_lizard" = "Smooth", "mam_snouts" = "Round",
 							"horns" = "None", "frills" = "None", "spines" = "None", "mam_body_markings" = list(),
-							"legs" = "Plantigrade", "deco_wings" = "None")
+							"legs" = "Digitigrade", "deco_wings" = "None")
 	attack_verb = "slash"
 	attack_sound = 'sound/weapons/slash.ogg'
 	miss_sound = 'sound/weapons/slashmiss.ogg'
@@ -60,11 +60,9 @@ Lizard subspecies: ASHWALKERS
 	if((C.dna.features["spines"] != "None" ) && (C.dna.features["tail_lizard"] == "None")) //tbh, it's kinda ugly for them not to have a tail yet have floating spines
 		C.dna.features["tail_lizard"] = "Smooth"
 		C.update_body()
-	/*
 	if(C.dna.features["legs"] != "digitigrade")
 		C.dna.features["legs"] = "digitigrade"
 		for(var/obj/item/bodypart/leggie in C.bodyparts)
 			if(leggie.body_zone == BODY_ZONE_L_LEG || leggie.body_zone == BODY_ZONE_R_LEG)
 				leggie.update_limb(FALSE, C)
-	*/
 	return ..()
