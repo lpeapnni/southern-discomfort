@@ -15,11 +15,6 @@ Main doors: ACCESS_CAPTAIN 20
 
 	objectivesList = list("Leadership recommends the following goal for this week: Establish an outpost at the radio tower","Leadership recommends the following goal for this week: Acquire blueprints for research and preservation", "Leadership recommends the following goal for this week: Acquire or confiscate dangerous tech by any means necessary.")
 
-/datum/job/bos/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
-	. = ..()
-	spawner.mind.add_antag_datum(/datum/antagonist/faction/bos)
-	add_verb(spawner,/mob/living/proc/view_faction_objective)
-
 /datum/outfit/job/bos
 	name = "bosdatums"
 	jobtype = 	/datum/job/bos

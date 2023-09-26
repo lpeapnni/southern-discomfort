@@ -66,10 +66,6 @@
 #define ADMIN_INDIVIDUALLOG(user) "(<a href='?_src_=holder;[HrefToken(TRUE)];individuallog=[REF(user)]'>LOGS</a>)"
 #define ADMIN_JMP_MSGTERMINAL(src) "(<a href='?_src_=holder;[HrefToken(TRUE)];adminplayerobservecoodjump=1;X=[69];Y=[77];Z=[1]'>JMP</a>)"
 
-// heremus admin shit
-#define ADMIN_APPROVEOBJECTIVE(user, message, antag_datum) "(<a href='?_src_=holder;[HrefToken(TRUE)];objectiveapprove=[REF(user)];objectivemessage=[message];objectiveteam=[REF(antag_datum)]'>APPROVE</a>)"
-#define ADMIN_DENYOBJECTIVE(user, antag_datum) "(<a href='?_src_=holder;[HrefToken(TRUE)];objectivedeny=[REF(user)];objectiveteam=[REF(antag_datum)]'>DENY</a>)"
-
 #define ADMIN_PUNISHMENT_LIGHTNING "Lightning bolt"
 #define ADMIN_PUNISHMENT_BRAINDAMAGE "Brain damage"
 #define ADMIN_PUNISHMENT_GIB "Gib"

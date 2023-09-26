@@ -15,11 +15,6 @@ Within this file is the material to turn the previous odd-inclusion into a prope
 	Are you worthy of their attention?"
 	supervisors = "the stars above"
 
-/datum/job/tribal/after_spawn(mob/living/spawner, mob/client_holder, latejoin = FALSE)
-	. = ..()
-	spawner.mind.add_antag_datum(/datum/antagonist/faction/tribal)
-	add_verb(spawner,/mob/living/proc/view_faction_objective)
-
 /datum/outfit/job/tribal/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	..()
 	if(visualsOnly)
