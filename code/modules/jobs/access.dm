@@ -429,7 +429,7 @@
 			return "Security"
 
 /proc/get_all_jobs()
-	return list("Wastelander", "Raider", "Outsider", "Raider Captain", "Tribal", "Tribal Hunter", "Tribal Gatherer", "Tribal Shaman",
+	return list("Wastelander", "Outlaw", "Tribal",
 				"Mayor", "Sheriff", "Deputy", "Banker", "Barkeep", "Shopkeeper", "Citizen", "Preacher", "Secretary",
 				"Baron", "Castellan","Keeper", "Knight-Commander", "Paladin Marshal", "Paladin", "Librarian", "Scribe", "Knight-Captain", "Knight", "Initiate", "BoS Off-Duty", "Inquisitorial Acolyte",
 				"Followers Administrator", "Followers Doctor", "Followers Volunteer", "Followers Guard", "Followers Robot",

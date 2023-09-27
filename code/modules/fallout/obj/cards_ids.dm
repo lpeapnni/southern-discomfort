@@ -371,32 +371,16 @@
 /*
 KEYS AND STUFF AAAAAAAAA
 */
-/obj/item/card/id/raider_tags
-	name = "frail rusted keychain"
-	desc = "A set of keys, each marked with odd pins. They feel like they could fall apart."
-	icon_state = "keys"
-	item_state = "keys"
-	assignment = "old keys"
-	uses_overlays = FALSE
-	access = list(ACCESS_RAIDER)
-
-/obj/item/card/id/boss_raider_tags
-	name = "hardened rusted keychain"
-	desc = "A set of keys, each marked with odd pins. They feel sturdy."
-	icon_state = "keys"
-	item_state = "keys"
-	assignment = "old keys"
-	uses_overlays = FALSE
-	access = list(ACCESS_RAIDER, ACCESS_RAIDER_BOSS)
 
 /obj/item/card/id/tribetattoo
-	name = "rusted keychain"
-	desc = "A set of keys. This one smells of agave."
-	icon_state = "keys"
-	item_state = "keys"
-	assignment = "old keys"
+	name = "Tattoo of the machine spirits"
+	desc = "A tattoo depicting the five machine spirits in harmony."
+	icon_state = "talisman"
+	item_state = "talisman"
+	assignment = "tribe tattoo"
 	uses_overlays = FALSE
 	access = list(ACCESS_TRIBE)
+
 /*
 end of
 */
