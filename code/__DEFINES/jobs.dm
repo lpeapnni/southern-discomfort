@@ -138,20 +138,13 @@
 #define WASTELAND		(1<<8)
 
 #define F13WASTELANDER	(1<<0)
+#define F13RAIDER		(1<<1)
 #define F13VIGILANTE	(1<<3)
 #define F13ADMINBOOS	(1<<4)
-
-#define RAIDER			(1<<9)
-
-#define F13RAIDER		(1<<0)
-#define F13RAIDER_OUTSIDER	(1<<1)
-#define F13RAIDER_BOSS		(1<<1)
 
 #define TRIBAL			(1<<10)
 
 #define F13TRIBAL		(1<<0)
-#define F13TRIBAL_GATHERER	(1<<1)
-#define F13TRIBAL_SHAMAN	(1<<2)
 
 #define F13USLT			(1<<0)
 #define F13USGYSGT		(1<<1)

@@ -5098,7 +5098,6 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "auy" = (
-/obj/effect/landmark/start/f13/outsider,
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "horizontalinnermain2"
 	},
@@ -16383,12 +16382,6 @@
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/indestructible/ground/outside/savannah/topleft,
 /area/f13/building/nanotrasen)
-"bgZ" = (
-/obj/effect/landmark/start/f13/outsider,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontaltopborderbottom0"
-	},
-/area/f13/tunnel/northwest)
 "bhb" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalrightborderleft0"
@@ -35291,13 +35284,6 @@
 	icon_state = "horizontalinnermain2"
 	},
 /area/f13/wasteland/west)
-"khP" = (
-/obj/effect/landmark/start/f13/outsider,
-/turf/open/indestructible/ground/outside/road{
-	dir = 8;
-	icon_state = "horizontalinnermain2left"
-	},
-/area/f13/tunnel/northwest)
 "khV" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	icon_state = "verticalrightborderright0"
@@ -37474,12 +37460,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"lzM" = (
-/obj/effect/landmark/start/f13/outsider,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/tunnel/southwest)
 "lzO" = (
 /obj/structure/chair/wood,
 /obj/effect/decal/cleanable/blood/gibs/down{
@@ -46850,13 +46830,6 @@
 	icon_state = "darkrusty"
 	},
 /area/f13/building/mall)
-"rlJ" = (
-/obj/effect/landmark/start/f13/outsider,
-/turf/open/indestructible/ground/outside/road{
-	dir = 8;
-	icon_state = "horizontalinnermain2left"
-	},
-/area/f13/tunnel/southwest)
 "rlO" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -49486,12 +49459,6 @@
 	icon_state = "verticalinnermain0"
 	},
 /area/f13/building)
-"sSC" = (
-/obj/effect/landmark/start/f13/outsider,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/tunnel/southeast)
 "sSI" = (
 /obj/structure/stairs/west{
 	color = "#624b30"
@@ -51572,12 +51539,6 @@
 /obj/structure/flora/tree/tall,
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland/bighorn)
-"udm" = (
-/obj/effect/landmark/start/f13/outsider,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontaltopborderbottom0"
-	},
-/area/f13/tunnel/southwest)
 "uep" = (
 /obj/structure/table,
 /obj/item/clothing/gloves/color/yellow,
@@ -55991,15 +55952,6 @@
 	icon_state = "shadowright"
 	},
 /area/f13/building/hospital)
-"wNm" = (
-/obj/effect/decal/marking{
-	icon_state = "doublehorizontal"
-	},
-/obj/effect/landmark/start/f13/outsider,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/tunnel/southeast)
 "wNn" = (
 /turf/open/indestructible/ground/outside/road{
 	icon_state = "verticalrightborderleft2"
@@ -57884,12 +57836,6 @@
 	dir = 8
 	},
 /area/f13/building/mall)
-"xUZ" = (
-/obj/effect/landmark/start/f13/outsider,
-/turf/open/indestructible/ground/outside/road{
-	icon_state = "horizontalinnermain0"
-	},
-/area/f13/tunnel/northwest)
 "xVa" = (
 /turf/open/indestructible/ground/outside/sidewalk{
 	dir = 4;
@@ -58994,9 +58940,9 @@ aae
 aae
 adF
 agP
-bgZ
-xUZ
-khP
+akv
+ano
+app
 ars
 adF
 aae
@@ -59116,9 +59062,9 @@ aae
 aae
 aaG
 axu
-udm
-lzM
-rlJ
+ayl
+aCb
+aHG
 aII
 aaG
 aae
@@ -123357,15 +123303,15 @@ aae
 aae
 mMT
 ast
-sSC
-sSC
-sSC
+aud
+aud
+aud
 auy
-wNm
-sSC
-sSC
-sSC
-sSC
+awf
+aud
+aud
+aud
+aud
 ayF
 aab
 aae

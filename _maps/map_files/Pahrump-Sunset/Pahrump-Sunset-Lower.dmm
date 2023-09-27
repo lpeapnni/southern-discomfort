@@ -5459,9 +5459,6 @@
 /obj/effect/spawner/lootdrop/f13/traitbooks,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/tunnel)
-"ciZ" = (
-/turf/open/floor/plasteel/dark/telecomms/mainframe,
-/area/f13/tcoms)
 "cja" = (
 /obj/machinery/telecomms/server/presets/legion,
 /turf/open/floor/plasteel/dark/telecomms/mainframe,
@@ -10733,12 +10730,6 @@
 /obj/effect/spawner/lootdrop/low_tools,
 /turf/open/floor/plasteel/f13/vault_floor/yellow/whiteyellowfull,
 /area/f13/building/museum)
-"iZh" = (
-/obj/machinery/door/unpowered/securedoor/outlaw{
-	name = "safehouse door"
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
-/area/f13/tunnel/bighorn)
 "iZo" = (
 /obj/structure/barricade/wooden,
 /obj/effect/decal/cleanable/dirt,
@@ -45379,7 +45370,7 @@ yeP
 yeP
 yeP
 yeP
-iZh
+dFQ
 yeP
 yeP
 yeP
@@ -83948,7 +83939,7 @@ cho
 chJ
 cif
 ciC
-ciZ
+cig
 exT
 cig
 cjm

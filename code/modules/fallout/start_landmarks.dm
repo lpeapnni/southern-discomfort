@@ -306,16 +306,8 @@
 	icon_state = "Wastelander"
 
 /obj/effect/landmark/start/f13/raider
-	name = "Raider"
+	name = "Outlaw"
 	icon_state = "Raider"
-
-/obj/effect/landmark/start/f13/outsider
-	name = "Outsider"
-	icon_state = "Detective"
-
-/obj/effect/landmark/start/f13/raider_boss
-	name = "Raider Captain"
-	icon_state = "Enforcer"
 
 /obj/effect/landmark/start/f13/enforcer
 	name = "Den Mob Enforcer"
@@ -341,20 +333,7 @@
 	icon_state = "Detective"
 
 //Tribal
-
-/obj/effect/landmark/start/f13/tribal_hunter
-	name = "Tribal Hunter"
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/tribal_gatherer
-	name = "Tribal Gatherer"
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/tribal_shaman
-	name = "Tribal Shaman"
-	icon_state = "Tribal"
-
-/obj/effect/landmark/start/f13/tribal_temp
+/obj/effect/landmark/start/f13/tribal
 	name = "Tribal"
 	icon_state = "Tribal"
 
