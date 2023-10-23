@@ -73,6 +73,7 @@
 
 /datum/outfit/vr/bos
 	name = "Brotherhood"
+	ears = 		/obj/item/radio/headset/headset_bos/virt
 	uniform =	/obj/item/clothing/under/syndicate/brotherhood
 	shoes = 	/obj/item/clothing/shoes/combat/swat
 	gloves = 	/obj/item/clothing/gloves/combat
@@ -82,10 +83,12 @@
 
 /datum/outfit/vr/followers
 	name = "Followers"
+	ears =		/obj/item/radio/headset/headset_followers/virt
 	starting_funds = 0
 
 /datum/outfit/vr/den
 	name = "Den"
+	ears =		/obj/item/radio/headset/headset_den/virt
 	starting_funds = 0
 
 /datum/outfit/vr/bos/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE, client/preference_source)

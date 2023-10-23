@@ -108,11 +108,9 @@
 #define FREQ_ATMOS_ALARMS 1437  // air alarms <-> alert computers
 #define FREQ_ATMOS_CONTROL 1439  // air alarms <-> vents and scrubbers
 
-#define MIN_FREQ 1469 // ------------------------------------------------------
-// HEREMUS EDIT
-// 1469 to 1599 is unused, so those are the frequencies that can be used
-// the intent here is for preset occupation frequencies to no longer exist without
-// spending ten years removing shit
+#define MIN_FREQ 1441 // ------------------------------------------------------
+// Only the 1441 to 1489 range is freely available for general conversation.
+// This represents 1/8th of the available spectrum.
 
 #define FREQ_ATMOS_STORAGE 1441
 #define FREQ_NAV_BEACON 1445
@@ -125,7 +123,7 @@
 #define FREQ_SIGNALER 1457  // the default for new signalers
 #define FREQ_COMMON 1459  // Common comms frequency, dark green
 
-#define MAX_FREQ 1597 // ------------------------------------------------------
+#define MAX_FREQ 1489 // ------------------------------------------------------
 
 #define MAX_FREE_FREQ 1599 // -------------------------------------------------
 

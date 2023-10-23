@@ -46,6 +46,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 
 /datum/outfit/job/CaesarsLegion/Legionnaire
 	belt = /obj/item/storage/belt/military/assault/legion
+	ears = /obj/item/radio/headset/headset_legion
 	backpack = /obj/item/storage/backpack/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer
 	uniform = /obj/item/clothing/under/f13/legskirt
@@ -120,6 +121,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 	l_hand = /obj/item/tank/internals/oxygen
 	backpack = null
 	satchel = null
+	ears = /obj/item/radio/headset/headset_legion/cent
 	box = /obj/item/storage/box/legate
 
 
@@ -244,6 +246,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 	jobtype = /datum/job/CaesarsLegion/Legionnaire/f13centurion
 	id = /obj/item/card/id/dogtag/legcenturion
 	mask = /obj/item/clothing/mask/bandana/legion/legcenturion
+	ears = /obj/item/radio/headset/headset_legion/cent
 	neck = /obj/item/clothing/neck/mantle/legion
 	gloves = /obj/item/clothing/gloves/legion/plated
 	glasses = /obj/item/clothing/glasses/night/polarizing
@@ -345,6 +348,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 	mask = /obj/item/clothing/mask/bandana/legion/legdecan
 	neck = /obj/item/storage/belt/holster
 	gloves = /obj/item/clothing/gloves/legion/plated
+	ears = /obj/item/radio/headset/headset_legion/cent
 	glasses = /obj/item/clothing/glasses/sunglasses/big
 	shoes = /obj/item/clothing/shoes/f13/military/plated
 	r_pocket = /obj/item/flashlight/lantern
@@ -1145,6 +1149,7 @@ Discuss balance and documentation changes with Dragonfruits#1913 or forward them
 	head = /obj/item/clothing/head/f13/auxilia
 	uniform = /obj/item/clothing/under/f13/legauxiliaf
 	shoes = /obj/item/clothing/shoes/roman
+	ears = /obj/item/radio/headset/headset_legion
 	gloves = null
 	belt = null
 	r_pocket = /obj/item/flashlight/lantern
@@ -1343,6 +1348,7 @@ Venator  - Zero slots, role built on cloning vet ranger, linear just vastly bett
 	mask = /obj/item/clothing/mask/bandana/legion/legdecan
 	neck = /obj/item/storage/belt/holster
 	glasses = /obj/item/clothing/glasses/night/polarizing
+	ears = /obj/item/radio/headset/headset_legion
 	r_pocket = /obj/item/binoculars
 	suit_store = /obj/item/gun/ballistic/automatic/marksman/sniper/snipervenator
 	backpack_contents = list(

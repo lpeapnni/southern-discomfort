@@ -20,6 +20,7 @@ Main doors: ACCESS_CAPTAIN 20
 	jobtype = 	/datum/job/bos
 	backpack = 	/obj/item/storage/backpack/explorer
 	satchel = 	/obj/item/storage/backpack/satchel/explorer
+	ears = 		/obj/item/radio/headset/headset_bos
 	uniform =	/obj/item/clothing/under/syndicate/brotherhood
 	shoes = 	/obj/item/clothing/shoes/combat/swat
 	gloves = 	/obj/item/clothing/gloves/combat
@@ -84,6 +85,7 @@ Elder
 	accessory =	/obj/item/clothing/accessory/bos/elder
 	suit_store =	/obj/item/gun/energy/laser/laer
 	neck =	/obj/item/clothing/neck/mantle/bos/right
+	ears = /obj/item/radio/headset/headset_bos/command
 	backpack_contents = list(
 		/obj/item/melee/onehanded/knife/hunting = 1,
 		/obj/item/gun/energy/laser/wattz/recharger/Walker = 1,
@@ -142,6 +144,7 @@ Head Paladin
 	glasses =       /obj/item/clothing/glasses/sunglasses
 	belt =			/obj/item/storage/belt/military/assault
 	mask =			/obj/item/clothing/mask/gas/sechailer
+	ears =			/obj/item/radio/headset/headset_bos/command
 	id = 			/obj/item/card/id/dogtag
 	neck = 			/obj/item/clothing/neck/mantle/bos/paladin
 	backpack_contents = list(
@@ -226,6 +229,7 @@ Head Scribe
 	accessory = 	/obj/item/clothing/accessory/bos/headscribe
 	glasses =       /obj/item/clothing/glasses/sunglasses
 	suit = 			/obj/item/clothing/suit/armor/f13/headscribe
+	ears = 			/obj/item/radio/headset/headset_bos/command
 	belt = 			/obj/item/storage/belt/utility/full/engi
 	id = 			/obj/item/card/id/dogtag
 	backpack_contents = list(
@@ -307,6 +311,7 @@ Head Knight
 	accessory =		/obj/item/clothing/accessory/bos/knightcaptain
 	belt =			/obj/item/storage/belt/security/full
 	neck =			/obj/item/storage/belt/holster
+	ears =			 /obj/item/radio/headset/headset_bos/command
 	mask =			/obj/item/clothing/mask/gas/sechailer
 	head =			/obj/item/clothing/head/helmet/f13/combat/brotherhood/captain
 	id =			/obj/item/card/id/dogtag
@@ -981,6 +986,7 @@ Initiate
 	name = "Initiate"
 	jobtype = /datum/job/bos/f13initiate
 	backpack = /obj/item/storage/backpack/explorer
+	ears = 			/obj/item/radio/headset/headset_bos
 	uniform =		/obj/item/clothing/under/syndicate/brotherhood
 	shoes = 		/obj/item/clothing/shoes/combat/swat
 	gloves = 		/obj/item/clothing/gloves/combat
@@ -1035,6 +1041,7 @@ Off-Duty
 	name = "BoS Off-Duty"
 	jobtype = /datum/job/bos/f13offdutybos
 	backpack = /obj/item/storage/backpack
+	ears = 			/obj/item/radio/headset
 	uniform =		/obj/item/clothing/under/syndicate
 	belt = 			/obj/item/storage/belt/military/army
 	shoes = 		/obj/item/clothing/shoes/combat
@@ -1089,6 +1096,7 @@ They're intended to be some manner of IC police similar to how I've done IS, for
 	neck =			/obj/item/clothing/neck/mantle/bos/inquis
 	suit =			/obj/item/clothing/suit/armor/f13/power_armor/midwest_inquis
 	head =			/obj/item/clothing/head/helmet/f13/power_armor/midwest_inquis
+	ears =			/obj/item/radio/headset/headset_bos/command
 	uniform =		/obj/item/clothing/under/f13/recon
 	belt = 			/obj/item/storage/belt/military/army
 	shoes = 		/obj/item/clothing/shoes/combat
