@@ -10,7 +10,7 @@
 /obj/item/ammo_box/shotgun
 	icon = 'icons/fallout/objects/guns/ammo.dmi'
 	max_ammo = 12
-	custom_materials = list(/datum/material/iron = 6000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 6000, /datum/material/blackpowder = 1000)
 	ammo_type = /obj/item/ammo_casing/shotgun
 	multiple_sprites = 1
 
@@ -79,7 +79,7 @@
 	ammo_type = /obj/item/ammo_casing/a22
 	max_ammo = 40
 	w_class = WEIGHT_CLASS_SMALL
-	custom_materials = list(/datum/material/iron = 6000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 6000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/m22/rubber
 	name = "ammo box (.22lr rubber)"
@@ -101,7 +101,7 @@
 	caliber = "9mm"
 	ammo_type = /obj/item/ammo_casing/c9mm
 	max_ammo = 30
-	custom_materials = list(/datum/material/iron = 15000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 15000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/c9mm/rubber
 	name = "ammo box (9mm rubber)"
@@ -121,7 +121,7 @@
 	desc = "The casings are worn, the gunpowder some homebrew mix of dubious quality. At least it goes bang."
 	icon_state = "improvshotbag"
 	multiple_sprites = 3
-	custom_materials = list(/datum/material/iron = 10000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 10000, /datum/material/blackpowder = 1000)
 	ammo_type = /obj/item/ammo_casing/c9mm/improv
 
 /obj/item/ammo_box/c38box
@@ -132,7 +132,7 @@
 	caliber = "38"
 	ammo_type = /obj/item/ammo_casing/c38
 	max_ammo = 30
-	custom_materials = list(/datum/material/iron = 10000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 10000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/c38box/rubber
 	name = "ammo box (.38 rubber)"
@@ -163,7 +163,7 @@
 	ammo_type = /obj/item/ammo_casing/c10mm
 	caliber = "10mm"
 	max_ammo = 30
-	custom_materials = list(/datum/material/iron = 10000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 10000, /datum/material/blackpowder = 1000)
 
 
 /obj/item/ammo_box/c10mm/fire
@@ -191,7 +191,7 @@
 	caliber = "357"
 	ammo_type = /obj/item/ammo_casing/a357
 	max_ammo = 30
-	custom_materials = list(/datum/material/iron = 16000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 16000, /datum/material/blackpowder = 1000)
 	w_class = WEIGHT_CLASS_NORMAL
 
 /obj/item/ammo_box/a357box/ricochet
@@ -222,7 +222,7 @@
 	ammo_type = /obj/item/ammo_casing/m44
 	max_ammo = 30
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 14000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 14000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/m44box/incendiary
 	name = "ammo box (.44 magnum incendiary-tipped)"
@@ -238,7 +238,7 @@
 	ammo_type = /obj/item/ammo_casing/a45lc
 	max_ammo = 30
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 14000, /datum/material/blackpowder = 1500)
+	custom_materials = list(/datum/material/brass = 14000, /datum/material/blackpowder = 1500)
 
 /obj/item/ammo_box/m44box/improvised
 	name = "bag with reloaded .44 bullets"
@@ -256,7 +256,7 @@
 	icon_state = "45box"
 	ammo_type = /obj/item/ammo_casing/c45
 	max_ammo = 30
-	custom_materials = list(/datum/material/iron = 10000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 10000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/c45/rubber
 	name = "ammo box (.45 rubber)"
@@ -288,7 +288,7 @@
 	ammo_type = /obj/item/ammo_casing/c4570
 	max_ammo = 30
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 16000, /datum/material/blackpowder = 1500)
+	custom_materials = list(/datum/material/brass = 16000, /datum/material/blackpowder = 1500)
 
 /obj/item/ammo_box/c4570box/explosive
 	name = "ammo box (.45-70 HE)"
@@ -311,13 +311,13 @@
 	ammo_type = /obj/item/ammo_casing/m5mm
 	max_ammo = 60
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 24000, /datum/material/blackpowder = 1500)
+	custom_materials = list(/datum/material/brass = 24000, /datum/material/blackpowder = 1500)
 
 /obj/item/ammo_box/m5mmbox/shock
 	name = "ammo box (5mm ESD)"
 	desc = "Advanced 5mm bullets with electrostatic discharger tips."
 	ammo_type = /obj/item/ammo_casing/m5mm/shock
-	custom_materials = list(/datum/material/iron = 24000, /datum/material/blackpowder = 1500, /datum/material/glass = 8000)
+	custom_materials = list(/datum/material/brass = 24000, /datum/material/blackpowder = 1500, /datum/material/glass = 8000)
 //5.56x45
 /obj/item/ammo_box/a556
 	name = "ammo box (5.56 FMJ)"
@@ -328,12 +328,12 @@
 	ammo_type = /obj/item/ammo_casing/a556
 	max_ammo = 40
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 20000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 20000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/a556/sport
 	name = "ammo box (.223 sport)"
 	ammo_type = /obj/item/ammo_casing/a556/sport
-	custom_materials = list(/datum/material/iron = 16000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 16000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/a556/rubber
 	name = "ammo box (5.56 rubber)"
@@ -347,13 +347,13 @@
 	name = "ammo box (5.56 microshrapnel)"
 	desc = "Now with fragments!"
 	ammo_type = /obj/item/ammo_casing/a556/microshrapnel
-	custom_materials = list(/datum/material/iron = 20000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 20000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/a556/uraniumtipped
 	name = "ammo box (5.56 uranium-tipped)"
 	desc = "Not depleted uranium. Regular uranium."
 	ammo_type = /obj/item/ammo_casing/a556/uranium_tipped
-	custom_materials = list(/datum/material/iron = 20000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 20000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/a556/uraniumtipped/Initialize()
 	. = ..()
@@ -368,7 +368,7 @@
 	name = "bag with reloaded .223 bullets"
 	desc = "The casings are worn, the gunpowder some homebrew mix of dubious quality. At least it goes bang."
 	multiple_sprites = 3
-	custom_materials = list(/datum/material/iron = 2000, /datum/material/blackpowder = 500)
+	custom_materials = list(/datum/material/brass = 2000, /datum/material/blackpowder = 500)
 	icon_state = "improvshotbag"
 
 
@@ -382,7 +382,7 @@
 	ammo_type = /obj/item/ammo_casing/a762/sport
 	max_ammo = 30
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 14000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 14000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/a762box
 	name = "ammo box (7.62x51 FMJ)"
@@ -393,7 +393,7 @@
 	ammo_type = /obj/item/ammo_casing/a762
 	max_ammo = 30
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 16000, /datum/material/blackpowder = 1000)
+	custom_materials = list(/datum/material/brass = 16000, /datum/material/blackpowder = 1000)
 
 /obj/item/ammo_box/a762box/uraniumtipped
 	name = "ammo box (7.62x51 uranium tipped)"
@@ -433,7 +433,7 @@
 	ammo_type = /obj/item/ammo_casing/a50MG
 	max_ammo = 25
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 20000, /datum/material/blackpowder = 1500)
+	custom_materials = list(/datum/material/brass = 20000, /datum/material/blackpowder = 1500)
 
 /obj/item/ammo_box/a50MGbox/rubber
 	name = "ammo box (.50 rubber)"
@@ -464,7 +464,7 @@
 	ammo_type = /obj/item/ammo_casing/p14mm
 	max_ammo = 30
 	w_class = WEIGHT_CLASS_NORMAL
-	custom_materials = list(/datum/material/iron = 11000, /datum/material/blackpowder = 1500)
+	custom_materials = list(/datum/material/brass = 11000, /datum/material/blackpowder = 1500)
 
 /obj/item/ammo_box/m14mm/contam
 	name = "ammo box (14mm contaminated)"
@@ -769,7 +769,7 @@
 	icon_state = "musketbag"
 	ammo_type = /obj/item/ammo_casing/caseless/musketball
 	max_ammo = 15
-	custom_materials = list(/datum/material/iron = 3000)
+	custom_materials = list(/datum/material/brass = 3000)
 	w_class = WEIGHT_CLASS_NORMAL
 
 //7.62x51, .308 Winchester
